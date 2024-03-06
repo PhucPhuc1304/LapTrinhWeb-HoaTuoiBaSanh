@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="css/login.css" rel="stylesheet"  type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -44,7 +46,11 @@
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
             <a href="#"><img src="img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="img/icon/cart.png" alt=""> <span id="CartCount">@Context.Session.GetString("count")</span></a>
+            <a href="#">
+                <img src="img/icon/cart.png" alt="">        <span id="CartCount">@ViewContext.HttpContext.Session.GetInt32("count")</span>
+
+
+            </a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -105,7 +111,11 @@
                 <div class="col-lg-2 col-md-3">
                     <div class="header__nav__option">
                         <a href="#"><img src="img/icon/heart.png" alt=""></a>
-                        <a href="@Url.Action("Cart", "Shop")"><img src="img/icon/cart.png" alt=""><span id="CartCount">@Context.Session.GetString("count")</span></a>
+                        <a href="@Url.Action("Cart", "Shop")">
+                            <img src="img/icon/cart.png" alt="">   <span id="CartCount">@ViewContext.HttpContext.Session.GetInt32("count")</span>
+
+
+                        </a>
                     </div>
                 </div>
             </div>
@@ -191,7 +201,6 @@
     </div>
     <!-- Search End -->
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
