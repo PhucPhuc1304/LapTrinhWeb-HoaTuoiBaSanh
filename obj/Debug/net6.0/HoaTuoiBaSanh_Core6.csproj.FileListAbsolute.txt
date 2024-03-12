@@ -59,3 +59,5 @@ D:\DA_LTW\HoaTuoiBaSanh_Core6\obj\Debug\net6.0\HoaTuoiBaSanh_Core6.pdb
 D:\DA_LTW\HoaTuoiBaSanh_Core6\obj\Debug\net6.0\HoaTuoiBaSanh_Core6.genruntimeconfig.cache
 D:\DA_LTW\HoaTuoiBaSanh_Core6\obj\Debug\net6.0\ref\HoaTuoiBaSanh_Core6.dll
 D:\DA_LTW\HoaTuoiBaSanh_Core6\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\DA_LTW\HoaTuoiBaSanh_Core6\bin\Debug\net6.0\PagedList.dll
+D:\DA_LTW\HoaTuoiBaSanh_Core6\bin\Debug\net6.0\PagedList.Mvc.dll
