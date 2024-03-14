@@ -2,7 +2,7 @@
 {
     public class IndexViewModel
     {
-        public List<HangHoa> NewProducts { get; set; }
-        public List<HangHoa> SaleProducts { get; set; }
+        public List<Product> NewProducts { get; set; }
+        public List<Product> SaleProducts { get; set; }
     }
 }

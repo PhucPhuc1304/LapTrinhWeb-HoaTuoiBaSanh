@@ -9,19 +9,17 @@ namespace HoaTuoiBaSanh_Core6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly webContext _context;
+        private readonly HoaTuoiBaSanhContext _context;
 
-        public HomeController(webContext context)
+        public HomeController(HoaTuoiBaSanhContext context)
         {
             _context = context;
         }
 
         public IActionResult Index()
         {
-            var newProducts = _context.HangHoas.Where(x => x.TrangThai.Contains("New")).ToList();
-            var saleProducts = _context.HangHoas.Where(x => x.TrangThai.Contains("Sale")).ToList();
-                            
-
+            var newProducts = _context.Products.Where(x => x.ProductStatus.Contains("New")).ToList();
+            var saleProducts = _context.Products.Where(x => x.ProductStatus.Contains("Sale")).ToList();
             IndexViewModel viewModel = new IndexViewModel();
             viewModel.SaleProducts = saleProducts;
             viewModel.NewProducts = newProducts;

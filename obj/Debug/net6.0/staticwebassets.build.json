@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Jih4h0kl6qexWjGu84KfyrettJ+OOU6RRGIeyqFF88=",
+  "Hash": "ovfA2qHuqcnwnNn+OTBrCzJ9B5nettTf4Ydak4lg4tA=",
   "Source": "HoaTuoiBaSanh_Core6",
   "BasePath": "_content/HoaTuoiBaSanh_Core6",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HoaTuoiBaSanh_Core6\\wwwroot",
       "Source": "HoaTuoiBaSanh_Core6",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HoaTuoiBaSanh_Core6.styles.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HoaTuoiBaSanh_Core6.styles.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "HoaTuoiBaSanh_Core6.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HoaTuoiBaSanh_Core6.styles.css"
+      "OriginalItemSpec": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HoaTuoiBaSanh_Core6.styles.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HoaTuoiBaSanh_Core6.bundle.scp.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HoaTuoiBaSanh_Core6.bundle.scp.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "HoaTuoiBaSanh_Core6.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HoaTuoiBaSanh_Core6.bundle.scp.css"
+      "OriginalItemSpec": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HoaTuoiBaSanh_Core6.bundle.scp.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\elegant-icons.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\elegant-icons.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/elegant-icons.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\elegant-icons.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\login.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\login.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\magnific-popup.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\magnific-popup.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/magnific-popup.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\magnific-popup.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\nice-select.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\nice-select.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/nice-select.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\nice-select.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\owl.carousel.min.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\owl.carousel.min.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\slicknav.min.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\slicknav.min.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/slicknav.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\slicknav.min.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\style.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\style.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\css\\style.css.map",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\style.css.map",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "css/style.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\favicon.ico",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\favicon.ico",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\ElegantIcons.eot",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.eot",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/ElegantIcons.eot",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ElegantIcons.eot"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\ElegantIcons.svg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.svg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/ElegantIcons.svg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ElegantIcons.svg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.ttf",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/ElegantIcons.ttf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ElegantIcons.ttf"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\ElegantIcons.woff",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.woff",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/ElegantIcons.woff",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ElegantIcons.woff"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\about-us.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\about-us.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/about-us.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\about-us.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\team-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/team-1.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\team-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\team-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/team-2.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\team-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\team-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/team-3.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\team-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\team-4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/team-4.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\team-4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\testimonial-author.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\testimonial-author.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/testimonial-author.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\testimonial-author.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\about\\testimonial-pic.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\testimonial-pic.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/about/testimonial-pic.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about\\testimonial-pic.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\banner\\banner-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\banner-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/banner/banner-2.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\banner-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\banner\\banner-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\banner-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/banner/banner-3.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\banner-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\banner\\Hoa.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\Hoa.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/banner/Hoa.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\Hoa.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\banner\\La.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\La.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/banner/La.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\La.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\banner\\Xop.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\Xop.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/banner/Xop.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner\\Xop.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-1.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-2.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-3.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-4.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-5.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-6.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-7.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-7.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-7.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-7.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-8.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-8.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-8.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-8.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\blog-9.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-9.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/blog-9.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\blog-9.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\details\\blog-author.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\details\\blog-author.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/details/blog-author.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\details\\blog-author.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\blog\\details\\blog-details.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\details\\blog-details.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/blog/details/blog-details.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\details\\blog-details.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\breadcrumb-bg.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/breadcrumb-bg.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\breadcrumb-bg.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-1.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-1.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-1.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-1.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-2.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-2.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-2.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-2.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-3.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-3.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-3.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-3.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-4.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-4.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-4.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-4.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-5.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-5.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-5.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-5.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-6.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-6.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-6.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-6.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-7.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-7.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-7.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-7.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\clients\\client-8.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-8.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/clients/client-8.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\client-8.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\deal.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\deal.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/deal.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\deal.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\footer.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\footer.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/footer.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\footer.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\hero\\bg.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\bg.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/hero/bg.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\bg.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\hero\\hero-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\hero-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/hero/hero-1.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\hero-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\hero\\hero-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\hero-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/hero/hero-2.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\hero-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\hero\\img1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\img1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/hero/img1.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\img1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\hero\\img3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\img3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/hero/img3.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero\\img3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\calendar.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\calendar.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/calendar.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\calendar.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\cart.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\cart.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/cart.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\cart.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\compare.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\compare.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/compare.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\compare.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\detail.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\detail.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/detail.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\detail.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\heart.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\heart.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/heart.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\heart.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\icon\\search.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\search.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/icon/search.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\search.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-1.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-2.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-3.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-4.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-5.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\instagram\\instagram-6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/instagram/instagram-6.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram\\instagram-6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\logo.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\payment.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\payment.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/payment.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\payment.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\banner.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\banner.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/banner.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\banner.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\bgbg.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\bgbg.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/bgbg.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\bgbg.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong1.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong2.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong3.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong4.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong5.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong6.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong7.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong7.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong7.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong7.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuong8.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong8.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuong8.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuong8.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon1.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon2.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon3.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon4.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon5.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon6.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon7.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon7.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon7.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon7.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\camchuongdon8.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon8.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/camchuongdon8.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\camchuongdon8.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\came1.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came1.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/came1.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\came1.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\came2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/came2.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\came2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\came3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/came3.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\came3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\came4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/came4.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\came4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\came5.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came5.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/came5.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\came5.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\cate.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\cate.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/cate.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\cate.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\cate3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\cate3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/cate3.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\cate3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Clear_1_800x800_800x800.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Clear_1_800x800_800x800.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Clear_1_800x800_800x800.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Clear_1_800x800_800x800.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Cuc.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Cuc.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Cuc.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Cuc001.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc001.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Cuc001.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Cuc001.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Cuc002.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc002.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Cuc002.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Cuc002.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Cuc003.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc003.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Cuc003.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Cuc003.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\GioHoa.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\GioHoa.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/GioHoa.png",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\GioHoa.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\HoaCatTuong.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\HoaCatTuong.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/HoaCatTuong.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\HoaCatTuong.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\HuongDuong001.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\HuongDuong001.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/HuongDuong001.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\HuongDuong001.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\img1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/img1.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\img1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\img2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/img2.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\img2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\img3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/img3.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\img3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\La.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\La.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/La.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\La.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\lily.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\lily.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/lily.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\lily.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\logo.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\logo.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/logo.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\logo.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Luoi1.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi1.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Luoi1.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Luoi1.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Luoi2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Luoi2.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Luoi2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Luoi3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Luoi3.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Luoi3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Luoi4.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi4.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Luoi4.png",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Luoi4.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly001.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly001.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly001.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly001.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly002.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly002.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly002.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly002.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly003.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly003.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly003.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly003.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly005.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly005.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly005.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly005.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly006.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly006.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly006.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly006.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\LY007.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\LY007.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/LY007.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\LY007.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Ly008.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly008.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Ly008.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Ly008.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\LyDeal.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\LyDeal.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/LyDeal.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\LyDeal.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Maudon1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Maudon1.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Maudon1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Maudon2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Maudon2.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Maudon2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Maudon3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Maudon3.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Maudon3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\MON001.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\MON001.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/MON001.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\MON001.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\MonLe.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\MonLe.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/MonLe.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\MonLe.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-1.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-10.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-10.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-10.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-10.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-11.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-11.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-11.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-11.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-12.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-12.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-12.jpg",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-12.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-13.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-13.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-13.jpg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-13.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-14.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-14.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-14.jpg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-14.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-2.jpg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-3.jpg",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-4.jpg",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-5.jpg",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-6.jpg",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-7.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-7.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-7.jpg",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-7.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-8.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-8.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-8.jpg",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-8.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\product-9.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-9.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/product-9.jpg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\product-9.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\rossi1.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi1.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/rossi1.png",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\rossi1.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\rossi2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/rossi2.jpg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\rossi2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\rossi3.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi3.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/rossi3.png",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\rossi3.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\rossi4.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi4.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/rossi4.png",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\rossi4.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\sunflower.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\sunflower.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/sunflower.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\sunflower.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\ThuyTien.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\ThuyTien.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/ThuyTien.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\ThuyTien.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien1.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien10.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien10.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien10.jpg",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien10.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien11.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien11.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien11.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien11.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien12.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien12.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien12.jpg",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien12.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien13.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien13.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien13.jpg",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien13.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien14.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien14.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien14.jpg",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien14.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien2.jpg",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien3.jpg",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien4.jpg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien5.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien5.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien5.jpg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien5.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien6.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien6.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien6.jpg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien6.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien7.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien7.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien7.jpg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien7.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien8.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien8.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien8.jpg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien8.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\thuytien9.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien9.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/thuytien9.jpg",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\thuytien9.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product\\Xop.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Xop.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product/Xop.jpg",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\Xop.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product-sale.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product-sale.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product-sale.png",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-sale.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\product-sale2.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product-sale2.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/product-sale2.png",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-sale2.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\details-payment.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\details-payment.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/details-payment.png",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\details-payment.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\product-big.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/product-big.png",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\product-big.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\product-big-2.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-2.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/product-big-2.png",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\product-big-2.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\product-big-3.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-3.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/product-big-3.png",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\product-big-3.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\product-big-4.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-4.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/product-big-4.png",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\product-big-4.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\thumb-1.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-1.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/thumb-1.png",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\thumb-1.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\thumb-2.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-2.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/thumb-2.png",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\thumb-2.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\thumb-3.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-3.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/thumb-3.png",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\thumb-3.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shop-details\\thumb-4.png",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-4.png",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shop-details/thumb-4.png",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop-details\\thumb-4.png"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shopping-cart/cart-1.jpg",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-cart\\cart-1.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shopping-cart/cart-2.jpg",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-cart\\cart-2.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shopping-cart/cart-3.jpg",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-cart\\cart-3.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "img/shopping-cart/cart-4.jpg",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-cart\\cart-4.jpg"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\ajax.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\ajax.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/ajax.js",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ajax.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery.countdown.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.countdown.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery.countdown.min.js",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.countdown.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery.magnific-popup.min.js",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery.nicescroll.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.nicescroll.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery.nicescroll.min.js",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.nicescroll.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery.nice-select.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.nice-select.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery.nice-select.min.js",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.nice-select.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery.slicknav.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.slicknav.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery.slicknav.js",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.slicknav.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery-3.3.1.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\main.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\main.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\mixitup.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\mixitup.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/mixitup.min.js",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\js\\mixitup.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\js\\owl.carousel.min.js",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\owl.carousel.min.js",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\PagedList.css",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\PagedList.css",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "PagedList.css",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\PagedList.css"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_about.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_about.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_about.scss",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_about.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_base.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_base.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_base.scss",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_base.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_blog.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_blog.scss",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_blog.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_blog-details.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog-details.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_blog-details.scss",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_blog-details.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_blog-sidebar.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog-sidebar.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_blog-sidebar.scss",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_blog-sidebar.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_breadcrumb.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_breadcrumb.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_breadcrumb.scss",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_checkout.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_checkout.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_checkout.scss",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_checkout.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_contact.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_contact.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_contact.scss",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_contact.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_footer.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_footer.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_footer.scss",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_footer.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_header.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_header.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_header.scss",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_header.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_hero.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_hero.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_hero.scss",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_hero.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_home-page.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_home-page.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_home-page.scss",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_home-page.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_mixins.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_mixins.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_mixins.scss",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_mixins.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_product.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_product.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_product.scss",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_product.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_responsive.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_responsive.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_responsive.scss",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_responsive.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_shop.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shop.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_shop.scss",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_shop.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_shop-details.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shop-details.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_shop-details.scss",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_shop-details.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_shopping-cart.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shopping-cart.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_shopping-cart.scss",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_shopping-cart.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\_variable.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_variable.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/_variable.scss",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\sass\\_variable.scss"
     },
     {
-      "Identity": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\sass\\style.scss",
+      "Identity": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\style.scss",
       "SourceId": "HoaTuoiBaSanh_Core6",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\wwwroot\\",
+      "ContentRoot": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\",
       "BasePath": "_content/HoaTuoiBaSanh_Core6",
       "RelativePath": "sass/style.scss",
       "AssetKind": "All",

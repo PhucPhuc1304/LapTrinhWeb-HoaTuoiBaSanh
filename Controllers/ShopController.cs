@@ -6,14 +6,15 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using PagedList;
+using Microsoft.EntityFrameworkCore;
 
 namespace HoaTuoiBaSanh_Core6.Controllers
 {
     public class ShopController : Controller
     {
-        private readonly webContext _context = new webContext();
+        private readonly HoaTuoiBaSanhContext _context = new HoaTuoiBaSanhContext();
 
-        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page, String Loai, string priceFilter)
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page, String categoryFilter, string priceFilter)
         {
             ViewBag.CurrentSort = sortOrder;
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -31,15 +32,16 @@ namespace HoaTuoiBaSanh_Core6.Controllers
             ViewBag.CurrentFilter = searchString;
 
 
-            var products = _context.HangHoas.AsQueryable(); // Replace 'db.Products' with your actual entity set
-            var categories = _context.LoaiHangs.ToList();
+            IQueryable<Product> products = _context.Products; // Use IQueryable<Product> instead of DbSet<Product>
+                                                              // Replace '_context.Products' with your actual DbSet property
+            var categories = _context.Categories.ToList();
             List<SelectListItem> categoryList = new List<SelectListItem>();
             foreach (var category in categories)
             {
                 categoryList.Add(new SelectListItem
                 {
-                    Value = category.MaLoai.ToString(),
-                    Text = category.TenLoai
+                    Value = category.CategoryId.ToString(),
+                    Text = category.CategoryName
                 });
             }
             ViewBag.CategoryList = categoryList;
@@ -49,16 +51,30 @@ namespace HoaTuoiBaSanh_Core6.Controllers
             // Lọc danh sách hoa dựa trên searchString
             if (!String.IsNullOrEmpty(searchString))
             {
-                products = products.Where(p => p.TenHang.Contains(searchString));
+                products = products.Where(p => p.ProductName.Contains(searchString));
             }
 
-            if (Loai != null)
+            if (categoryFilter != null)
             {
-                products = products.Where(p => p.MaLoai == Loai);
+                int categoryIdFilter = int.Parse(categoryFilter);
+
+                var category = _context.Categories
+                                        .FirstOrDefault(c => c.CategoryId == categoryIdFilter);
+
+                if (category != null)
+                {
+                    products = products.Where(p => p.CategoryId == category.CategoryId);
+                }
+                else
+                {
+                 
+                    products = products.Where(p => false);
+                }
             }
+
             if (!String.IsNullOrEmpty(searchString))
             {
-                products = products.Where(p => p.TenHang.Contains(searchString));
+                products = products.Where(p => p.ProductName.Contains(searchString));
             }
 
             if (!String.IsNullOrEmpty(priceFilter))
@@ -66,22 +82,22 @@ namespace HoaTuoiBaSanh_Core6.Controllers
                 switch (priceFilter)
                 {
                     case "0-50":
-                        products = products.Where(p => p.GiaLe >= 0 && p.GiaLe <= 20000);
+                        products = products.Where(p => p.Price >= 0 && p.Price <= 20000);
                         break;
                     case "50-100":
-                        products = products.Where(p => p.GiaLe > 20000 && p.GiaLe <= 100000);
+                        products = products.Where(p => p.Price > 20000 && p.Price <= 100000);
                         break;
                     case "100-150":
-                        products = products.Where(p => p.GiaLe > 10000 && p.GiaLe <= 150000);
+                        products = products.Where(p => p.Price > 10000 && p.Price <= 150000);
                         break;
                     case "150-200":
-                        products = products.Where(p => p.GiaLe > 150000 && p.GiaLe <= 200000);
+                        products = products.Where(p => p.Price > 150000 && p.Price <= 200000);
                         break;
                     case "200-250":
-                        products = products.Where(p => p.GiaLe > 200000 && p.GiaLe <= 250000);
+                        products = products.Where(p => p.Price > 200000 && p.Price <= 250000);
                         break;
                     case "250":
-                        products = products.Where(p => p.GiaLe > 250000);
+                        products = products.Where(p => p.Price > 250000);
                         break;
                 }
             }
@@ -90,19 +106,21 @@ namespace HoaTuoiBaSanh_Core6.Controllers
             switch (sortOrder)
             {
                 case "name_desc":
-                    products = products.OrderByDescending(p => p.TenHang);
+                    products = products.OrderByDescending(p => p.ProductName);
                     break;
                 case "Price":
-                    products = products.OrderBy(p => p.GiaLe);
+                    products = products.OrderBy(p => p.Price);
                     break;
                 case "price_desc":
-                    products = products.OrderByDescending(p => p.GiaLe);
+                    products = products.OrderByDescending(p => p.Price);
                     break;
                 default:
-                    products = products.OrderBy(p => p.TenHang);
+                    products = products.OrderBy(p => p.ProductName);
                     break;
             }
-            ViewBag.CategoryList = new SelectList(_context.LoaiHangs, "MaLoai", "TenLoai");
+            Console.WriteLine(_context.Categories);
+            ViewBag.CategoryList = _context.Categories.Select(c => new { MaLoai = c.CategoryId, TenLoai = c.CategoryName }).ToList();
+
 
 
 
@@ -135,7 +153,7 @@ namespace HoaTuoiBaSanh_Core6.Controllers
             else
             {
                 // If the product doesn't exist, add it to the cart
-                cart.Add(new CartModel { SanPham = _context.HangHoas.FirstOrDefault(p => p.MaHang == id), Quantity = quantity });
+                cart.Add(new CartModel { Product = _context.Products.FirstOrDefault(p => p.ProductId == int.Parse(id)), Quantity = quantity });
                 // Recalculate the total number of items in the cart
                 HttpContext.Session.SetInt32("count", HttpContext.Session.GetInt32("count").GetValueOrDefault() + 1);
             }
@@ -171,7 +189,7 @@ namespace HoaTuoiBaSanh_Core6.Controllers
             {
                 for (int i = 0; i < cart.Count; i++)
                 {
-                    if (cart[i].SanPham.MaHang.Equals(id))
+                    if (cart[i].Product.ProductId.Equals(id))
                     {
                         return i;
                     }

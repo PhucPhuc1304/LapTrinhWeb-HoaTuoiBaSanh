@@ -2580,11 +2580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\HoaTuoiBaSanh_Core6.csproj",
+      "projectUniqueName": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\HoaTuoiBaSanh_Core6.csproj",
       "projectName": "HoaTuoiBaSanh_Core6",
-      "projectPath": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\HoaTuoiBaSanh_Core6.csproj",
+      "projectPath": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\HoaTuoiBaSanh_Core6.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\obj\\",
+      "outputPath": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

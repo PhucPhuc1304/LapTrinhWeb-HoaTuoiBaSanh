@@ -2,9 +2,9 @@
 {
     public class CartModel
     {
-        public HangHoa SanPham { get; set; }
+        public Product Product{ get; set; }
         public int Quantity { get; set; }
-        public double Total => (double)(SanPham.GiaLe * Quantity);
+        public double Total => (double)(Product.Price * Quantity);
         public double Subtotal { get; set; }
     }
 }

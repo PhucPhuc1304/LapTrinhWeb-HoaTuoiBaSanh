@@ -7,12 +7,12 @@ namespace HoaTuoiBaSanh_Core6.Models
     {
         public Role()
         {
-            TaiKhoans = new HashSet<TaiKhoan>();
+            Accounts = new HashSet<Account>();
         }
 
-        public string IdRole { get; set; } = null!;
-        public string? NameRole { get; set; }
+        public int RoleId { get; set; }
+        public string? RoleName { get; set; }
 
-        public virtual ICollection<TaiKhoan> TaiKhoans { get; set; }
+        public virtual ICollection<Account> Accounts { get; set; }
     }
 }

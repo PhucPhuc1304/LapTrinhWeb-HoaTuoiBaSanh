@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TBrQK9Q5kXxvHo5j/SLWMVzNR4UXyk/06V5youz65HlzuFtUs2QE4HO8bNEbvW4pCygRnZ10zk6MMDju48m4eQ==",
+  "dgSpecHash": "NUj1aS+cmd+ArDfHswM2eF7WfowaK3vqQ5799WokYyLelOO5AcMY7/SRZxHQY3b4Di4AM5FgHO29V0s1oFfyXQ==",
   "success": true,
-  "projectFilePath": "D:\\DA_LTW\\HoaTuoiBaSanh_Core6\\HoaTuoiBaSanh_Core6.csproj",
+  "projectFilePath": "D:\\DA_LTW\\LapTrinhWeb-HoaTuoiBaSanh\\HoaTuoiBaSanh_Core6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.0.0\\microsoft.aspnetcore.cryptography.internal.2.0.0.nupkg.sha512",
