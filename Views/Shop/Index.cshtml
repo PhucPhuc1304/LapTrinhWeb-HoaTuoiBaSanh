@@ -15,61 +15,6 @@
 <section class="shop spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <div class="shop__sidebar">
-                    <div class="shop__sidebar__search">
-                        <form action="@Url.Action("Index")" method="get">
-                            <input type="text" name="searchString" placeholder="Nhập từ khóa..." value="@ViewBag.CurrentFilter">
-                            <button type="submit">Tìm kiếm</button>
-                        </form>
-                    </div>
-                    <div class="shop__sidebar__accordion">
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-heading">
-                                    <a data-toggle="collapse" data-target="#collapseThree">Danh mục</a>
-                                </div>
-                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="shop__sidebar__categories">
-                                            <ul class="nice-scroll">
-                                                <li><a href="@Url.Action("Index", "Shop")">Tất cả sản phẩm</a></li>
-                                                @foreach (var category in ViewBag.CategoryList)
-                                                {
-                                                    <li><a href="@Url.Action("Index", "Shop", new { categoryFilter = category.MaLoai })">@category.TenLoai</a></li>
-                                                }
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="card">
-                                <div class="card-heading">
-                                    <a data-toggle="collapse" data-target="#collapseThree">Lọc theo giá</a>
-                                </div>
-                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="shop__sidebar__price">
-                                            <ul>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "0-50" })">0 - 50.000đ</a></li>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "50-100" })">50.0000đ - 100.000đ</a></li>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "100-150" })">100.000đ - 150.000đ</a></li>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "150-200" })">150.000đ - 200.000đ</a></li>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "200-250" })">200.000đ - 250.000đ</a></li>
-                                                <li><a href="@Url.Action("Index", new {sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, priceFilter = "250" })">> 250.0000d</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-lg-9">
                 <div class="shop__product__option">
                     <div class="row">
