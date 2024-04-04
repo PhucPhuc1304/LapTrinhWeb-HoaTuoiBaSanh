@@ -18,8 +18,15 @@ namespace HoaTuoiBaSanh_Core6.Controllers
 
         public IActionResult Index()
         {
+<<<<<<< Updated upstream
             var newProducts = _context.Products.Where(x => x.ProductStatus.Contains("New")).ToList();
             var saleProducts = _context.Products.Where(x => x.ProductStatus.Contains("Sale")).ToList();
+=======
+            var newProducts = _context.HangHoas.Where(x => x.TrangThai.Contains("New")).ToList();
+            var saleProducts = _context.HangHoas.Where(x => x.TrangThai.Contains("Sale")).ToList();
+
+
+>>>>>>> Stashed changes
             IndexViewModel viewModel = new IndexViewModel();
             viewModel.SaleProducts = saleProducts;
             viewModel.NewProducts = newProducts;
