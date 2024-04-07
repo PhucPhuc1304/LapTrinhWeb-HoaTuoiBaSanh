@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\CF_HOATUOIBASANH.props" />
-</Project>
