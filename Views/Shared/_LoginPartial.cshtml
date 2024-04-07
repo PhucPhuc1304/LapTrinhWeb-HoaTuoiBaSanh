@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@{
+    var username = Context.Session.GetString("CustomerLastName");
+}
+
+@if (!string.IsNullOrEmpty(username))
+{
+    <a class="text">Xin chào @username</a>
+    @Html.ActionLink("Đăng Xuất", "Logout", "Home", routeValues: null, htmlAttributes: new { @class = "text" })
+}
+else
+{
+    @Html.ActionLink("Đăng ký", "Register", "Account", routeValues: null, htmlAttributes: new { @class = "text" })
+    @Html.ActionLink("Đăng nhập", "Login", "Account", routeValues: null, htmlAttributes: new { @class = "text" })
+}
+
