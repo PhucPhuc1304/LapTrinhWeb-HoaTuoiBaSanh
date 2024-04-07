@@ -1,0 +1,357 @@
+﻿
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<section class="class=" h-100 gradient-form">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card card-registration my-4">
+                    <div class="row g-0">
+                        <div class="col-xl-6 d-none d-xl-block  d-flex align-items-center gradient-custom-2">
+                            <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                <h1 class="mb-4 text-center" style="color:floralwhite">Ba Sanh</h1>
+                                <p class="text-justify">
+                                    <strong>Hoa tươi Ba Sanh</strong> là một cửa hàng hoa chuyên nghiệp được thành lập từ năm 2002, với kinh nghiệm hơn 20 năm trong ngành hoa. Ba Sanh luôn tự hào là địa chỉ uy tín và chất lượng để khách hàng có thể tìm thấy những bó hoa đẹp nhất cho các dịp đặc biệt của mình.
+                                </p>
+                                <p class="text-justify">
+                                    Với sự đa dạng về mẫu mã và chủng loại hoa, cửa hàng hoa Ba Sanh đã đáp ứng nhu cầu của rất nhiều khách hàng khó tính và được đánh giá cao bởi sự chuyên nghiệp, tận tâm và chất lượng sản phẩm.
+                                </p>
+                                <p class="text-center">
+                                    Hotline : <strong>0937.37.2400 - 03.9999.1668</strong>
+                                    Địa chỉ : <strong>015 Lô A - Chung cư Lê Hồng Phong, Phường 1, Quận 10, Tp. Hồ Chí Minh</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="card-body p-md-5 text-black">
+                                <h3 class="mb-5 text-uppercase text-center">Đăng ký tài khoản</h3>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Họ và tên </label>
+                                            <input type="text" id="fullName" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Giới tính</label><br />
+                                            <div class="form-check form-check-inline mb-0 me-2">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleRadio"
+                                                       value="Nam" />
+                                                <label class="form-check-label" for="maleRadio">Nam</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0 me-2">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleRadio"
+                                                       value="Nữ" />
+                                                <label class="form-check-label" for="femaleRadio">Nữ</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="anotherSexRadio"
+                                                       value="Khác" />
+                                                <label class="form-check-label" for="anotherSexRadio">Khác</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Số điện thoại</label>
+                                            <input type="text" id="phoneNumber" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Email</label>
+                                            <input type="text" id="email" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Mật khẩu</label>
+                                            <input type="password" id="password" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <label class="form-label">Nhập lại mật khẩu</label>
+                                            <input type="password" id="confirmPassword" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label class="form-label">Địa chỉ</label>
+                                        <select class="select form-control form-control-lg" name="" id="city">
+                                            <option value="1">Chọn tỉnh thành</option>
+                                        </select>
+
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label class="form-label"></label>
+                                        <select class="select form-control form-control-lg" name="" id="district">
+                                            <option value="1">Chọn quận huyện</option>
+
+                                        </select>
+
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <select class="select form-control form-control-lg" name="" id="ward">
+                                            <option value="1">Chọn phường xã</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <input type="text" id="street" class="form-control form-control-lg" />
+                                        </div>
+                                    </div>
+
+                                    <div class="d-md-flex justify-content-start align-items-center justify-content-center mb-4 py-2">
+                                        <div class="form-check form-check-inline mb-0 me-4">
+                                            <input class="form-check-input" type="radio" name="agreeTerms" id="agreeTerms"
+                                                   value="option1" />
+                                            <label class="form-check-label" for="agreeTerms">Tôi Đồng ý với Điều khoản & Điều kiện</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input  id="result" />
+                                <div class="d-flex justify-content-center pt-3">
+                                    <span class="msg-error error"></span>
+                                    <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfXuPMmAAAAAOq1WlEW2Z3h6wznY9hzgJTYnmuq"></div>
+
+
+                                </div>
+                                <div class="d-flex justify-content-center pt-3">
+                                    <button class="btn btn-primary  btn-lg gradient-custom-2 mb-3" type="submit" id="btnRegister">
+                                        Đăng ký
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    $(document).ready(function () {
+        // Fetch all cities
+        $.ajax({
+            url: '/Address/GetAllCities',
+            type: 'GET',
+            success: function (data) {
+                renderData(data, "city");
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching cities:', error);
+            }
+        });
+
+        $("#city").change(() => {
+            const cityId = $("#city").val();
+            if (cityId !== "") {
+                $.ajax({
+                    url: "/Address/GetDistrictsByCityId",
+                    type: "GET",
+                    data: { cityId: cityId },
+                    success: function (data) {
+                        renderData(data, "district");
+                        $("#ward").html('<option value="" selected>Chọn phường xã</option>');
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error fetching districts:', error);
+                    }
+                });
+            } else {
+                $("#district").html('<option value="" selected>Chọn quận huyện</option>');
+                $("#ward").html('<option value="" selected>Chọn phường xã</option>');
+            }
+            printResult();
+        });
+
+        $("#district").change(() => {
+            const districtId = $("#district").val();
+            if (districtId !== "") {
+                $.ajax({
+                    url: "/Address/GetWardsByDistrictId",
+                    type: "GET",
+                    data: { districtId: districtId },
+                    success: function (data) {
+                        renderData(data, "ward");
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error fetching wards:', error);
+                    }
+                });
+            } else {
+                $("#ward").html('<option value="" selected>Chọn phường xã</option>');
+            }
+            printResult();
+        });
+
+        $("#city, #district, #ward, #street").change(() => {
+            printResult();
+        });
+        var renderData = (array, select) => {
+            let defaultOption = '';
+            switch (select) {
+                case 'city':
+                    defaultOption = 'Chọn tỉnh thành';
+                    break;
+                case 'district':
+                    defaultOption = 'Chọn quận huyện';
+                    break;
+                case 'ward':
+                    defaultOption = 'Chọn phường xã';
+                    break;
+                default:
+                    defaultOption = 'Chọn';
+                    break;
+            }
+
+            let row = ` <option disable value="">${defaultOption}</option>`;
+            array.forEach(element => {
+                let id = '';
+                switch (select) {
+                    case 'city':
+                        id = element.cityId;
+                        break;
+                    case 'district':
+                        id = element.districtId;
+                        break;
+                    case 'ward':
+                        id = element.wardId;
+                        break;
+                }
+                row += `<option data-id="${id}" value="${id}">${element.name}</option>`;
+            });
+            document.querySelector("#" + select).innerHTML = row;
+        }
+
+        var printResult = () => {
+            const street = $("#street").val();
+            const city = $("#city option:selected").text();
+            const district = $("#district option:selected").text();
+            const ward = $("#ward option:selected").text();
+
+            if (street && city && district && ward) {
+                let result = street + ", " + ward + ", " + district + ", " + city;
+                $("#result").val(result); 
+            }
+        }
+
+    });
+    $(document).ready(function () {
+        $('#btnRegister').click(function () {
+            var $captcha = $('#recaptcha'),
+                response = grecaptcha.getResponse();
+            if (response.length === 0) {
+                toastr.error("Lỗi... Vui lòng chọn lại Captcha !!!", "", {
+                    timeOut: 2000,
+                    progressBar: true,
+                    closeButton: true
+                });
+                if (!$captcha.hasClass("error")) {
+                    $captcha.addClass("error");
+                }
+            } else {
+                $captcha.removeClass("error");
+                var fullName = $('#fullName').val();
+                var sex = $('input[name="inlineRadioOptions"]:checked').val();
+                var password = $('#password').val();
+                var confirmPassword = $('#confirmPassword').val();
+                var address = $('#result').val();
+                var phoneNumber = $('#phoneNumber').val();
+                var email = $('#email').val();
+                var isChecked = $("#agreeTerms").is(":checked");
+
+                if (!fullName || !sex || !password || !confirmPassword || !address || !phoneNumber || !email) {
+                    toastr.error("Lỗi... Vui lòng điền đầy đủ thông tin.", "", {
+                        timeOut: 2000,
+                        progressBar: true,
+                        closeButton: true
+                    });
+                    return;
+                }
+
+                if (password !== confirmPassword) {
+                    toastr.error("Lỗi... Mật khẩu không khớp.", "", {
+                        timeOut: 2000,
+                        progressBar: true,
+                        closeButton: true
+                    });
+                    return;
+                }
+
+                if (sex !== 'Nam' && sex !== 'Nữ' && sex !== 'Khác') {
+                    toastr.error("Lỗi... Vui lòng chọn giới tính hợp lệ.", "", {
+                        timeOut: 2000,
+                        progressBar: true,
+                        closeButton: true
+                    });
+                    return;
+                }
+                if (!isChecked) {
+                    toastr.error("Lỗi... Vui lòng chọn giới tính hợp lệ.", "", {
+                        timeOut: 2000,
+                        progressBar: true,
+                        closeButton: true
+                    });
+                    return;
+                }
+                if (address.includes("Chọn tỉnh thành") || address.includes("Chọn quận huyện") || address.includes("Chọn phường xã")) {
+                    toastr.error("Địa chỉ không hợp lệ.", "", {
+                        timeOut: 2000,
+                        progressBar: true,
+                        closeButton: true
+                    });
+                    return;
+                }
+
+                $.ajax({
+                    url: '/Account/Register',
+                    type: 'POST',
+                    data: {
+                        fullName: fullName,
+                        sex: sex,
+                        password: password,
+                        confirmPassword: confirmPassword,
+                        address: address,
+                        phoneNumber: phoneNumber,
+                        email: email,
+                    },
+                    success: function (data) {
+                        toastr.success("Đăng ký thành công.", "", {
+                            timeOut: 2000,
+                            progressBar: true,
+                            closeButton: true
+                        });
+                        // Chuyển sang trang khác, ví dụ: trang chủ
+                    },
+                    error: function (error) {
+                        var errorMessage = error.responseJSON ? error.responseJSON.error : "Lỗi... Đăng ký thất bại.";
+                        toastr.error(errorMessage, "", {
+                            timeOut: 2000,
+                            progressBar: true,
+                            closeButton: true
+                        });
+                    }
+                });
+            }
+        });
+    });
+
+</script>
+
