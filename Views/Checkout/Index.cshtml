@@ -1,0 +1,342 @@
+﻿<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+@using CF_HOATUOIBASANH.FormatHelper
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Check Out</h4>
+                    <div class="breadcrumb__links">
+                        <a href="/Home">Trang chủ</a>
+                        <a href="/Shop">Shop</a>
+                        <span>Thanh toán</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="checkout__form">
+            <form action="#">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <h6 class="checkout__title">Chi tiết thanh toán</h6>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Họ lót<span>*</span></p>
+                                    <input type="text" id="lastName" name="lastName" value="@ViewBag.Customer.LastName">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Tên<span>*</span></p>
+                                    <input type="text" id="firstName" name="firstName" value="@ViewBag.Customer.FirstName">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Tỉnh thành phố<span>*</span></p>
+                            <select id="city" name="city">
+                                <!-- Add options here -->
+                            </select>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Quận huyện<span>*</span></p>
+                            <select id="district" name="district">
+                                <option value="defaul" selected>Chọn quận huyện</option>
+                            </select>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Phường xã<span>*</span></p>
+                            <select id="ward" name="ward">
+                                <option value="defaul" selected>Chọn phường xã</option>
+                            </select>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Đường<span>*</span></p>
+                            <input type="text" id="street" name="street" placeholder="Tên đường" class="checkout__input__add">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Số điện thoại<span>*</span></p>
+                                    <input type="text" id="phone" name="phone" value="@ViewBag.Customer.Phone">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <p>Email<span>*</span></p>
+                                    <input type="text" id="email" name="email" value="@ViewBag.Customer.Email">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="checkout__input__checkbox">
+                            <label for="diff-acc">
+                                Ghi chú cho cửa hàng
+                                <input type="checkbox" id="diff-acc">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkout__input">
+                            <p>Ghi chú<span>*</span></p>
+                            <input type="text"
+                                   placeholder="Lưu ý về đơn đặt hàng của bạn, ví dụ: địa chỉ cụ thể, yêu cầu,....">
+                        </div>
+                        <input type="text" id="result" name="result">
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="checkout__order">
+                            <h4 class="order__title">Đơn hàng</h4>
+                            <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
+                            <ul class="checkout__total__products">
+                                <ul class="checkout__total__products">
+                                    @foreach (var item in ViewBag.Cart)
+                                    {
+                                        <li>@item.Product.ProductName <span>@FormatHelper.FormatPriceVND((double)@item.Total)</span></li>
+                                    }
+                                </ul>
+                            </ul>
+
+                            <h1 class="order__title"></h1>
+
+                            <h4 class="order__title">Giao hàng </h4>
+
+                            <div class="checkout__input__checkbox">
+                                <label for="ship">
+                                    Giao hàng hỏa tốc Ahamove
+                                    <input type="checkbox" id="ship" name="deliveryMethod" value="Ahamove">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkout__input__checkbox">
+                                <label for="onShop">
+                                    Nhận hàng tại cửa hàng
+                                    <input type="checkbox" id="onShop" name="deliveryMethod" value="OnShop">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h1 class="order__title"></h1>
+
+                            <h4 class="order__title">Thanh toán </h4>
+
+                            <div class="checkout__input__checkbox">
+                                <label for="paymoney">
+                                    Thanh toán COD
+                                    <input type="checkbox" id="paymoney">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkout__input__checkbox">
+                                <label for="vnPay">
+                                    Thanh toán bằng QR VNPAY
+                                    <input type="checkbox" id="vnPay">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkout__input__checkbox">
+                                <label for="paypal">
+                                    Thanh toán bằng PAYPAL
+                                    <input type="checkbox" id="paypal">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <ul class="checkout__total__all">
+
+                                <li>Tổng tiền hàng <span id="total">@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ</span></li>
+                                <li>Phí giao hàng <span id="shipCost" >0 đ</span></li>
+                                <li>Tổng thành tiền  <span id="subTotal">@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice)  đ</span></li>
+                            </ul>
+                            <button type="submit" class="site-btn">PLACE ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        // Fetch all cities
+        $.ajax({
+            url: '/Address/GetAllCities',
+            type: 'GET',
+            success: function (data) {
+                renderData(data, "city");
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching cities:', error);
+            }
+        });
+
+        $("#city").change(() => {
+            const cityId = $("#city").val();
+            if (cityId !== "") {
+                $.ajax({
+                    url: "/Address/GetDistrictsByCityId",
+                    type: "GET",
+                    data: { cityId: cityId },
+                    success: function (data) {
+                        renderData(data, "district");
+                        $("#ward").html('<option value="" selected>Chọn phường xã</option>');
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error fetching districts:', error);
+                    }
+                });
+            } else {
+                $("#district").html('<option value="default" selected>Chọn quận huyện</option>');
+                $("#ward").html('<option value="default" selected>Chọn phường xã</option>');
+            }
+            printResult();
+        });
+
+        $("#district").change(() => {
+            const districtId = $("#district").val();
+            if (districtId !== "") {
+                $.ajax({
+                    url: "/Address/GetWardsByDistrictId",
+                    type: "GET",
+                    data: { districtId: districtId },
+                    success: function (data) {
+                        renderData(data, "ward");
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error fetching wards:', error);
+                    }
+                });
+            } else {
+                $("#ward").html('<option value="default" selected>Chọn phường xã</option>');
+            }
+            printResult();
+        });
+
+        $("#city, #district, #ward, #street").change(() => {
+            printResult();
+        });
+        var renderData = (array, select) => {
+            let defaultOption = '';
+            switch (select) {
+                case 'city':
+                    defaultOption = 'Chọn tỉnh thành';
+                    break;
+                case 'district':
+                    defaultOption = 'Chọn quận huyện';
+                    break;
+                case 'ward':
+                    defaultOption = 'Chọn phường xã';
+                    break;
+                default:
+                    defaultOption = 'Chọn';
+                    break;
+            }
+
+            let row = ` <option disable value="default">${defaultOption}</option>`;
+            array.forEach(element => {
+                let id = '';
+                switch (select) {
+                    case 'city':
+                        id = element.cityId;
+                        break;
+                    case 'district':
+                        id = element.districtId;
+                        break;
+                    case 'ward':
+                        id = element.wardId;
+                        break;
+                }
+                row += `<option data-id="${id}" value="${id}">${element.name}</option>`;
+            });
+            document.querySelector("#" + select).innerHTML = row;
+        }
+
+        var printResult = () => {
+            const street = $("#street").val();
+            const city = $("#city option:selected").text();
+            const district = $("#district option:selected").text();
+            const ward = $("#ward option:selected").text();
+
+            if (street && city && district && ward) {
+                let result = street + ", " + ward + ", " + district + ", " + city;
+                $("#result").val(result);
+            }
+        }
+
+    });
+
+    document.querySelectorAll('input[name="deliveryMethod"]').forEach(function (checkbox) {
+        checkbox.addEventListener('change', function () {
+            // Loại bỏ chọn của ô checkbox còn lại
+            document.querySelectorAll('input[name="deliveryMethod"]').forEach(function (otherCheckbox) {
+                if (otherCheckbox !== checkbox) {
+                    otherCheckbox.checked = false;
+                }
+            });
+        });
+    });
+    document.getElementById('ship').addEventListener('change', function () {
+        if (this.checked) {
+            var selectedCityId = document.getElementById('city').value;
+            if (selectedCityId !== '46') {
+                alert('Cửa hàng chỉ giao hàng ở TP.HCM');
+                this.checked = false;
+            } else {
+                var resultValue = document.getElementById('result').value;
+                var districtValue = document.getElementById('district').value;
+                var wardValue = document.getElementById('ward').value;
+                var nameValue = document.getElementById('lastName').value;
+                var phoneValue = document.getElementById('phone').value;
+
+                if (resultValue.trim() === '' ||
+                    districtValue === 'default' || wardValue === 'default' || // Corrected 'defaul' to 'default'
+                    resultValue.includes('Chọn tỉnh thành') ||
+                    resultValue.includes('Chọn quận huyện') ||
+                    resultValue.includes('Chọn phường xã') ||
+                    nameValue.trim() === '' || phoneValue.trim() === '') {
+                    alert('Bạn cần điền thông tin địa chỉ, tên và số điện thoại trước khi chọn giao hàng.');
+                    this.checked = false;
+                } else {
+                    // Gửi AJAX request đến /ShipCost endpoint
+                    $.ajax({
+                        url: '/Ship/ShipCost',
+                        type: 'POST',
+                        data: {
+                            name: nameValue,
+                            phone: phoneValue,
+                            address: resultValue // Include the address here
+                        },
+                        success: function (totalPrice) {
+                            var parsedTotalPrice = parseFloat(totalPrice);
+                            var subTotal = parsedTotalPrice + parseFloat('@ViewBag.TotalPrice');
+
+
+                            $('#total').text('@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ');
+                            $('#shipCost').text(parsedTotalPrice.toLocaleString('vi-VN') + ' đ'); // Format shipCost
+                            $('#subTotal').text(subTotal.toLocaleString('vi-VN') + ' đ'); // Format subTotal
+                        },
+                        error: function () {
+                            // Add error handling logic here
+                            alert('An error occurred while calculating the shipping cost.');
+                        }
+                    });
+                }
+            }
+        }
+    });
+
+</script>

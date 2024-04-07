@@ -49,5 +49,9 @@ namespace CF_HOATUOIBASANH.Repositorys
         {
             return await _context.Customers.FirstOrDefaultAsync(c => c.Email == email);
         }
+        public async Task<Customer> GetCustomerByAccountIdAsync(int accountId)
+        {
+            return await _context.Customers.FirstOrDefaultAsync(c => c.AccountID == accountId);
+        }
     }
 }

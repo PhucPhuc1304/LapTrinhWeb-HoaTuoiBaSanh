@@ -10,6 +10,7 @@ namespace CF_HOATUOIBASANH.Interfaces
         Task UpdateCustomerAsync(Customer customer);
         Task DeleteCustomerAsync(int customerId);
         Task<Customer> GetCustomerByEmailAsync(string email);
+        Task<Customer> GetCustomerByAccountIdAsync(int accountId); // New method
 
     }
 }

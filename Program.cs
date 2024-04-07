@@ -6,11 +6,13 @@ using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Authencation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add support for cookies authentication
 builder.Services.AddDbContext<HoaTuoiBaSanhContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Configuration.GetValue<string>("AhamoveApiSettings:ApiKey");
 
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
