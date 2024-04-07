@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAADBED1-C139-41D9-BD0F-275DA7D40552}|CF_HOATUOIBASANH.csproj|c:\\users\\pc\\onedrive - teky.edu.vn\\desktop\\laptrinhweb-hoatuoibasanh\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAADBED1-C139-41D9-BD0F-275DA7D40552}|CF_HOATUOIBASANH.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAADBED1-C139-41D9-BD0F-275DA7D40552}|CF_HOATUOIBASANH.csproj|c:\\users\\pc\\onedrive - teky.edu.vn\\desktop\\laptrinhweb-hoatuoibasanh\\cf_hoatuoibasanh.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AAADBED1-C139-41D9-BD0F-275DA7D40552}|CF_HOATUOIBASANH.csproj|solutionrelative:cf_hoatuoibasanh.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1149146801:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T06:32:33.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CF_HOATUOIBASANH",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\CF_HOATUOIBASANH.csproj",
+              "RelativeDocumentMoniker": "CF_HOATUOIBASANH.csproj",
+              "ToolTip": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\CF_HOATUOIBASANH.csproj",
+              "RelativeToolTip": "CF_HOATUOIBASANH.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-07T06:30:44.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

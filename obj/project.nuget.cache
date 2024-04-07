@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HNiJq5UH4UyQieEgkK7+K0eWBE5Ghoi/BoYoUPgtz9DRQZOJrMXdiCQZqQiIG+bGvpKOps5C9B4TebQei06ucQ==",
+  "dgSpecHash": "iTYDgxawDhTLExEbJxQTzO+CPi+gHQplFOSxgzgx7lpM80TlDPeE3hgQhkkizBEy7On/+DGJ7jHC/oGc53n3zg==",
   "success": true,
-  "projectFilePath": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH.csproj",
+  "projectFilePath": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\CF_HOATUOIBASANH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -227,20 +227,20 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'PagedList 1.17.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'PagedList 1.17.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "PagedList",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'PagedList.Mvc 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'PagedList.Mvc 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "PagedList.Mvc",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]

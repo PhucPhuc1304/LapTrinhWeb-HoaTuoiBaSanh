@@ -1,855 +1,855 @@
 {
   "Files": [
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CF_HOATUOIBASANH.bundle.scp.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CF_HOATUOIBASANH.bundle.scp.css",
       "PackagePath": "staticwebassets\\CF_HOATUOIBASANH.bundle.scp.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\PagedList.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\PagedList.css",
       "PackagePath": "staticwebassets\\PagedList.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\elegant-icons.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\elegant-icons.css",
       "PackagePath": "staticwebassets\\css\\elegant-icons.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\nice-select.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\slicknav.min.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\slicknav.min.css",
       "PackagePath": "staticwebassets\\css\\slicknav.min.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\css\\style.css.map",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\css\\style.css.map",
       "PackagePath": "staticwebassets\\css\\style.css.map"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\ElegantIcons.eot",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.eot",
       "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\ElegantIcons.svg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.svg",
       "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.ttf",
       "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\ElegantIcons.woff",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.woff",
       "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\about-us.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\about-us.jpg",
       "PackagePath": "staticwebassets\\img\\about\\about-us.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\team-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\about\\team-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\team-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\about\\team-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\team-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\about\\team-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\team-4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\about\\team-4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\testimonial-author.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\testimonial-author.jpg",
       "PackagePath": "staticwebassets\\img\\about\\testimonial-author.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\about\\testimonial-pic.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\testimonial-pic.jpg",
       "PackagePath": "staticwebassets\\img\\about\\testimonial-pic.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\banner\\Hoa.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\Hoa.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\Hoa.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\banner\\La.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\La.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\La.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\banner\\Xop.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\Xop.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\Xop.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\banner\\banner-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\banner-2.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\banner\\banner-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\banner\\banner-3.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-2.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-3.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-4.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-5.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-6.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-7.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-7.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-7.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-8.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-8.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-8.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\blog-9.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\blog-9.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-9.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\details\\blog-author.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\details\\blog-author.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\details\\blog-author.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\blog\\details\\blog-details.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\blog\\details\\blog-details.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\details\\blog-details.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\breadcrumb-bg.jpg",
       "PackagePath": "staticwebassets\\img\\breadcrumb-bg.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-1.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-1.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-2.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-2.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-3.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-3.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-4.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-4.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-5.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-5.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-6.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-6.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-7.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-7.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\clients\\client-8.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\clients\\client-8.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\deal.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\deal.jpg",
       "PackagePath": "staticwebassets\\img\\deal.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\footer.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\footer.png",
       "PackagePath": "staticwebassets\\img\\footer.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\hero\\bg.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\bg.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\bg.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\hero\\hero-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\hero-1.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\hero\\hero-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\hero-2.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\hero-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\hero\\img1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\img1.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\img1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\hero\\img3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\hero\\img3.jpg",
       "PackagePath": "staticwebassets\\img\\hero\\img3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\calendar.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\calendar.png",
       "PackagePath": "staticwebassets\\img\\icon\\calendar.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\cart.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\cart.png",
       "PackagePath": "staticwebassets\\img\\icon\\cart.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\compare.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\compare.png",
       "PackagePath": "staticwebassets\\img\\icon\\compare.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\detail.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\detail.png",
       "PackagePath": "staticwebassets\\img\\icon\\detail.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\heart.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\heart.png",
       "PackagePath": "staticwebassets\\img\\icon\\heart.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\icon\\search.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\icon\\search.png",
       "PackagePath": "staticwebassets\\img\\icon\\search.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-1.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-2.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-3.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-4.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-5.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\instagram\\instagram-6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\instagram\\instagram-6.jpg",
       "PackagePath": "staticwebassets\\img\\instagram\\instagram-6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\payment.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\payment.png",
       "PackagePath": "staticwebassets\\img\\payment.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product-sale.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product-sale.png",
       "PackagePath": "staticwebassets\\img\\product-sale.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product-sale2.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product-sale2.png",
       "PackagePath": "staticwebassets\\img\\product-sale2.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Clear_1_800x800_800x800.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Clear_1_800x800_800x800.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Clear_1_800x800_800x800.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Cuc.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Cuc.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Cuc001.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc001.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Cuc001.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Cuc002.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc002.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Cuc002.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Cuc003.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Cuc003.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Cuc003.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\GioHoa.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\GioHoa.png",
       "PackagePath": "staticwebassets\\img\\product\\GioHoa.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\HoaCatTuong.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\HoaCatTuong.jpg",
       "PackagePath": "staticwebassets\\img\\product\\HoaCatTuong.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\HuongDuong001.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\HuongDuong001.jpg",
       "PackagePath": "staticwebassets\\img\\product\\HuongDuong001.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\LY007.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\LY007.jpg",
       "PackagePath": "staticwebassets\\img\\product\\LY007.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\La.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\La.jpg",
       "PackagePath": "staticwebassets\\img\\product\\La.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Luoi1.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi1.png",
       "PackagePath": "staticwebassets\\img\\product\\Luoi1.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Luoi2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Luoi2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Luoi3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Luoi3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Luoi4.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Luoi4.png",
       "PackagePath": "staticwebassets\\img\\product\\Luoi4.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly001.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly001.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly001.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly002.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly002.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly002.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly003.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly003.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly003.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly005.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly005.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly005.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly006.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly006.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly006.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Ly008.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Ly008.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Ly008.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\LyDeal.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\LyDeal.png",
       "PackagePath": "staticwebassets\\img\\product\\LyDeal.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\MON001.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\MON001.jpg",
       "PackagePath": "staticwebassets\\img\\product\\MON001.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Maudon1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Maudon1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Maudon2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Maudon2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Maudon3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Maudon3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Maudon3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\MonLe.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\MonLe.jpg",
       "PackagePath": "staticwebassets\\img\\product\\MonLe.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\ThuyTien.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\ThuyTien.jpg",
       "PackagePath": "staticwebassets\\img\\product\\ThuyTien.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\Xop.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\Xop.jpg",
       "PackagePath": "staticwebassets\\img\\product\\Xop.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\banner.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\banner.jpg",
       "PackagePath": "staticwebassets\\img\\product\\banner.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\bgbg.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\bgbg.jpg",
       "PackagePath": "staticwebassets\\img\\product\\bgbg.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong5.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong6.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong7.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong7.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong7.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuong8.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuong8.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuong8.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon5.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon6.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon7.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon7.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon7.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\camchuongdon8.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\camchuongdon8.jpg",
       "PackagePath": "staticwebassets\\img\\product\\camchuongdon8.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\came1.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came1.png",
       "PackagePath": "staticwebassets\\img\\product\\came1.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\came2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\came2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\came3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\came3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\came4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\came4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\came5.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\came5.png",
       "PackagePath": "staticwebassets\\img\\product\\came5.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\cate.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\cate.jpg",
       "PackagePath": "staticwebassets\\img\\product\\cate.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\cate3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\cate3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\cate3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\img1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\img1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\img2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\img2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\img3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\img3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\img3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\lily.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\lily.jpg",
       "PackagePath": "staticwebassets\\img\\product\\lily.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\logo.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\product\\logo.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-10.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-10.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-10.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-11.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-11.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-11.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-12.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-12.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-12.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-13.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-13.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-13.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-14.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-14.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-14.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-5.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-6.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-7.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-7.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-7.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-8.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-8.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-8.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\product-9.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\product-9.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\rossi1.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi1.png",
       "PackagePath": "staticwebassets\\img\\product\\rossi1.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\rossi2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\rossi2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\rossi3.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi3.png",
       "PackagePath": "staticwebassets\\img\\product\\rossi3.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\rossi4.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\rossi4.png",
       "PackagePath": "staticwebassets\\img\\product\\rossi4.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\sunflower.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\sunflower.jpg",
       "PackagePath": "staticwebassets\\img\\product\\sunflower.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien10.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien10.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien10.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien11.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien11.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien11.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien12.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien12.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien12.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien13.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien13.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien13.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien14.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien14.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien14.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien5.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien5.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien5.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien6.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien6.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien6.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien7.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien7.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien7.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien8.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien8.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien8.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\product\\thuytien9.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\product\\thuytien9.jpg",
       "PackagePath": "staticwebassets\\img\\product\\thuytien9.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\details-payment.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\details-payment.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\details-payment.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\product-big-2.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-2.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\product-big-2.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\product-big-3.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-3.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\product-big-3.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\product-big-4.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big-4.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\product-big-4.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\product-big.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\product-big.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\product-big.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\thumb-1.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-1.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\thumb-1.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\thumb-2.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-2.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\thumb-2.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\thumb-3.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-3.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\thumb-3.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shop-details\\thumb-4.png",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shop-details\\thumb-4.png",
       "PackagePath": "staticwebassets\\img\\shop-details\\thumb-4.png"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
       "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-1.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
       "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-2.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
       "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-3.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
       "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-4.jpg"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\ajax.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\ajax.js",
       "PackagePath": "staticwebassets\\js\\ajax.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery.countdown.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.countdown.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery.nice-select.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.nice-select.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery.nicescroll.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.nicescroll.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.nicescroll.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\jquery.slicknav.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\jquery.slicknav.js",
       "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\mixitup.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\mixitup.min.js",
       "PackagePath": "staticwebassets\\js\\mixitup.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_about.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_about.scss",
       "PackagePath": "staticwebassets\\sass\\_about.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_base.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_base.scss",
       "PackagePath": "staticwebassets\\sass\\_base.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_blog-details.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog-details.scss",
       "PackagePath": "staticwebassets\\sass\\_blog-details.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_blog-sidebar.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog-sidebar.scss",
       "PackagePath": "staticwebassets\\sass\\_blog-sidebar.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_blog.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_blog.scss",
       "PackagePath": "staticwebassets\\sass\\_blog.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_breadcrumb.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\sass\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_checkout.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_checkout.scss",
       "PackagePath": "staticwebassets\\sass\\_checkout.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_contact.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_contact.scss",
       "PackagePath": "staticwebassets\\sass\\_contact.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_footer.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_footer.scss",
       "PackagePath": "staticwebassets\\sass\\_footer.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_header.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_header.scss",
       "PackagePath": "staticwebassets\\sass\\_header.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_hero.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_hero.scss",
       "PackagePath": "staticwebassets\\sass\\_hero.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_home-page.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_home-page.scss",
       "PackagePath": "staticwebassets\\sass\\_home-page.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_mixins.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_mixins.scss",
       "PackagePath": "staticwebassets\\sass\\_mixins.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_product.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_product.scss",
       "PackagePath": "staticwebassets\\sass\\_product.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_responsive.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_responsive.scss",
       "PackagePath": "staticwebassets\\sass\\_responsive.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_shop-details.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shop-details.scss",
       "PackagePath": "staticwebassets\\sass\\_shop-details.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_shop.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shop.scss",
       "PackagePath": "staticwebassets\\sass\\_shop.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_shopping-cart.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_shopping-cart.scss",
       "PackagePath": "staticwebassets\\sass\\_shopping-cart.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\_variable.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\_variable.scss",
       "PackagePath": "staticwebassets\\sass\\_variable.scss"
     },
     {
-      "Id": "D:\\DA_LTW\\CF_HOATUOIBASANH\\CF_HOATUOIBASANH\\wwwroot\\sass\\style.scss",
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\sass\\style.scss",
       "PackagePath": "staticwebassets\\sass\\style.scss"
     },
     {

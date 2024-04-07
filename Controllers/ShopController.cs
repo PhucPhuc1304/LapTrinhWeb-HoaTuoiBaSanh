@@ -19,7 +19,7 @@ namespace CF_HOATUOIBASANH.Controllers
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
-
+        [CustomAuthorize(Roles ="Admin")]
         public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page, String categoryFilter, string priceFilter)
         {
             ViewBag.CurrentSort = sortOrder;
