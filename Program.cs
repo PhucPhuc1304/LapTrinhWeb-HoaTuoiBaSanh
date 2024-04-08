@@ -20,6 +20,7 @@ builder.Services.AddScoped<IAccountRepository, EFAccountRepository>();
 builder.Services.AddScoped<ICustomerRepository, EFCustomerRepository>();
 builder.Services.AddScoped<IRoleRepository, EFRoleRepository>();
 builder.Services.AddScoped<CustomAuthorizeAttribute>();
+builder.Services.AddScoped<IVNPayRepository, EFVNPayRepository>();
 
 
 builder.Services.AddAuthorization();

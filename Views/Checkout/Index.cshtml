@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb__text">
-                    <h4>Check Out</h4>
+                    <h4>Thanh toán</h4>
                     <div class="breadcrumb__links">
                         <a href="/Home">Trang chủ</a>
                         <a href="/Shop">Shop</a>
@@ -93,10 +93,10 @@
                         </div>
                         <div class="checkout__input">
                             <p>Ghi chú<span>*</span></p>
-                            <input type="text"
+                            <input id ="note" name="note" type="text"
                                    placeholder="Lưu ý về đơn đặt hàng của bạn, ví dụ: địa chỉ cụ thể, yêu cầu,....">
                         </div>
-                        <input type="text" id="result" name="result">
+                        <input hidden type="text" id="result" name="result">
 
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -137,32 +137,31 @@
                             <div class="checkout__input__checkbox">
                                 <label for="paymoney">
                                     Thanh toán COD
-                                    <input type="checkbox" id="paymoney">
+                                    <input type="checkbox" id="paymoney" name="paymentMethod">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="checkout__input__checkbox">
                                 <label for="vnPay">
                                     Thanh toán bằng QR VNPAY
-                                    <input type="checkbox" id="vnPay">
+                                    <input type="checkbox" id="vnPay" name="paymentMethod">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="checkout__input__checkbox">
                                 <label for="paypal">
                                     Thanh toán bằng PAYPAL
-                                    <input type="checkbox" id="paypal">
+                                    <input type="checkbox" id="paypal" name="paymentMethod">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-
                             <ul class="checkout__total__all">
 
                                 <li>Tổng tiền hàng <span id="total">@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ</span></li>
                                 <li>Phí giao hàng <span id="shipCost" >0 đ</span></li>
                                 <li>Tổng thành tiền  <span id="subTotal">@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice)  đ</span></li>
                             </ul>
-                            <button type="submit" class="site-btn">PLACE ORDER</button>
+                            <button type="button" class="site-btn">Thanh toán</button>
                         </div>
                     </div>
                 </div>
@@ -323,11 +322,9 @@
                         success: function (totalPrice) {
                             var parsedTotalPrice = parseFloat(totalPrice);
                             var subTotal = parsedTotalPrice + parseFloat('@ViewBag.TotalPrice');
-
-
                             $('#total').text('@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ');
-                            $('#shipCost').text(parsedTotalPrice.toLocaleString('vi-VN') + ' đ'); // Format shipCost
-                            $('#subTotal').text(subTotal.toLocaleString('vi-VN') + ' đ'); // Format subTotal
+                            $('#shipCost').text(parsedTotalPrice.toLocaleString('vi-VN').replace('.', ',') + ' đ');
+                            $('#subTotal').text(subTotal.toLocaleString('vi-VN').replace('.', ',') + ' đ');
                         },
                         error: function () {
                             // Add error handling logic here
@@ -338,5 +335,86 @@
             }
         }
     });
+    document.querySelectorAll('input[name="paymentMethod"]').forEach(function (checkbox) {
+        checkbox.addEventListener('change', function () {
+            if (this.checked) {
+                document.querySelectorAll('input[name="paymentMethod"]').forEach(function (otherCheckbox) {
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                    }
+                });
+            }
+        });
+    });
+    $(document).ready(function () {
+        $('.site-btn').on('click', function () {
+            // Get user input values
+            var lastName = $('#lastName').val().trim();
+            var firstName = $('#firstName').val().trim();
+            var city = $('#city').val().trim();
+            var district = $('#district').val().trim();
+            var ward = $('#ward').val().trim();
+            var street = $('#street').val().trim();
+            var phone = $('#phone').val().trim();
+            var email = $('#email').val().trim();
+            var note = $('#note').val().trim();
+            var result = $('#result').val().trim();
+            var totalPrice = '@ViewBag.TotalPrice';
+
+            var paymentMethod = $('input[name=paymentMethod]:checked').val();
+
+            var deliveryMethod = $('input[name=deliveryMethod]:checked').val();
+
+            var typePayment;
+            if ($('#vnPay').is(':checked')) {
+                typePayment = 'VnPay';
+            } else if ($('#paymoney').is(':checked')) {
+                typePayment = 'COD';
+            } else if ($('#paypal').is(':checked')) {
+                typePayment = 'PAYPAL';
+            }
+
+            var useShip = $('#ship').is(':checked');
+
+            if (lastName === '' || firstName === '' || city === '' || district === '' || ward === '' || street === '' || phone === '' || email === '' ||  result === '' || !paymentMethod || !deliveryMethod || !typePayment) {
+                // Display error message or alert
+                alert('Vui lòng điền đầy đủ thông tin và chọn phương thức thanh toán và giao hàng.');
+                return;
+            }
+
+            var data = {
+                lastName: lastName,
+                firstName: firstName,
+                phone: phone,
+                email: email,
+                note: note,
+                result: result,
+                paymentMethod: paymentMethod,
+                deliveryMethod: deliveryMethod,
+                typePayment: typePayment,
+                useShip: useShip,
+                totalPrice: totalPrice
+            };
+
+            // Make AJAX request to "/payment" endpoint
+            $.ajax({
+                url: '/Payment/ProcessPayment',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                    // Handle success response
+                    console.log(response);
+                    // Redirect to the received URL
+                    window.location.href = response.paymentUrl; // Assuming the response contains a property named paymentUrl
+                },
+                error: function (xhr, status, error) {
+                    // Handle error response
+                    console.error(error);
+                }
+            });
+        });
+    });
+
+
 
 </script>
