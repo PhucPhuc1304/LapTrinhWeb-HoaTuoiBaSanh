@@ -87,6 +87,7 @@ namespace CF_HOATUOIBASANH.Controllers
             {
                 if (account.Password == hashedPassword)
                 {
+
                     var serializedAccount = JsonConvert.SerializeObject(account);
                     HttpContext.Session.SetString("LoggedInAccount", serializedAccount);
 

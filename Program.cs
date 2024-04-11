@@ -21,6 +21,9 @@ builder.Services.AddScoped<ICustomerRepository, EFCustomerRepository>();
 builder.Services.AddScoped<IRoleRepository, EFRoleRepository>();
 builder.Services.AddScoped<CustomAuthorizeAttribute>();
 builder.Services.AddScoped<IVNPayRepository, EFVNPayRepository>();
+builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
+builder.Services.AddScoped<IDetailOrderRepository, EFDetailOrderRepository>();
+
 
 
 builder.Services.AddAuthorization();

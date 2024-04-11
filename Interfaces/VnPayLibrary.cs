@@ -45,11 +45,11 @@ namespace CF_HOATUOIBASANH.Interfaces
                 Success = true,
                 PaymentMethod = "VnPay",
                 OrderDescription = orderInfo,
-                OrderId = orderId.ToString(),
                 PaymentId = vnPayTranId.ToString(),
-                TransactionId = vnPayTranId.ToString(),
                 Token = vnpSecureHash,
                 VnPayResponseCode = vnpResponseCode
+
+
             };
         }
         public string GetIpAddress(HttpContext context)

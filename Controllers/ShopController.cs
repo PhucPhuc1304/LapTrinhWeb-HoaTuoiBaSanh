@@ -139,6 +139,8 @@ namespace CF_HOATUOIBASANH.Controllers
                 ? new List<CartModel>()
                 : JsonConvert.DeserializeObject<List<CartModel>>(cartJson);
 
+
+
             int index = isExist(id, cart);
             if (index != -1)
             {
@@ -226,7 +228,6 @@ namespace CF_HOATUOIBASANH.Controllers
             }
             else
             {
-                // Trả về lỗi nếu không tìm thấy sản phẩm trong giỏ hàng
                 return BadRequest("Product not found in cart.");
             }
         }

@@ -46,6 +46,7 @@ namespace CF_HOATUOIBASANH.Authencation
                     if (mp.IsInRole(item))
                     {
                         isValid = true;
+
                         break;
                     }
                 }

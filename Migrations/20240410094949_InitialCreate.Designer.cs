@@ -4,6 +4,7 @@ using CF_HOATUOIBASANH.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CF_HOATUOIBASANH.Migrations
 {
     [DbContext(typeof(HoaTuoiBaSanhContext))]
-    partial class HoaTuoiBaSanhContextModelSnapshot : ModelSnapshot
+    [Migration("20240410094949_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -172,10 +174,6 @@ namespace CF_HOATUOIBASANH.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Notes")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
                     b.Property<string>("PayMethod")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -187,10 +185,6 @@ namespace CF_HOATUOIBASANH.Migrations
                     b.Property<string>("ShipAddress")
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ShipStatus")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<decimal?>("TotalAmount")
                         .HasColumnType("decimal(18,2)");

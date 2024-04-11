@@ -169,7 +169,41 @@
         </div>
     </div>
 </section>
+<!-- Modal loading -->
+<!-- Modal loading -->
+<div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loadingModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <!-- Tiêu đề của modal -->
+                <h4 class="modal-title" id="loadingModalTitle">Đang tải...</h4>
+                <!-- Spinner hoặc loader -->
+                <br />
+                <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only">Đang tải...</span>
+                </div>
+                <!-- Văn bản mô tả cho quá trình tải -->
+                <p class="mt-2">Vui lòng đợi trong khi nội dung đang được tải...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <script>
+    // Hiển thị modal loading
+    function showLoadingModal() {
+        $('#loadingModal').modal('show');
+    }
+
+    // Ẩn modal loading
+    function hideLoadingModal() {
+        $('#loadingModal').modal('hide');
+    }
+
     $(document).ready(function () {
         // Fetch all cities
         $.ajax({
@@ -288,11 +322,29 @@
             });
         });
     });
+    document.getElementById('onShop').addEventListener('change', function () {
+        var totalSpan = document.getElementById('total');
+        var shipCostSpan = document.getElementById('shipCost');
+        var subTotalSpan = document.getElementById('subTotal');
+
+        // Kiểm tra xem checkbox có được chọn hay không
+        if (this.checked) {
+            // Nếu được chọn, hiển thị các thông tin thanh toán
+            totalSpan.innerText = "@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ";
+            shipCostSpan.innerText = "0 đ";
+            subTotalSpan.innerText = "@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ";
+        } else {
+            // Nếu không được chọn, ẩn các thông tin thanh toán và đặt lại giá trị mặc định
+            totalSpan.innerText = "";
+            shipCostSpan.innerText = "0 đ";
+            subTotalSpan.innerText = "";
+        }
+    });
     document.getElementById('ship').addEventListener('change', function () {
         if (this.checked) {
             var selectedCityId = document.getElementById('city').value;
             if (selectedCityId !== '46') {
-                alert('Cửa hàng chỉ giao hàng ở TP.HCM');
+                toastr.error('Cửa hàng đã chỉ vận chuyển TP.Hồ Chí Minh');
                 this.checked = false;
             } else {
                 var resultValue = document.getElementById('result').value;
@@ -307,19 +359,25 @@
                     resultValue.includes('Chọn quận huyện') ||
                     resultValue.includes('Chọn phường xã') ||
                     nameValue.trim() === '' || phoneValue.trim() === '') {
-                    alert('Bạn cần điền thông tin địa chỉ, tên và số điện thoại trước khi chọn giao hàng.');
+                    toastr.error('Bạn cần điền thông tin địa chỉ, tên và số điện thoại trước khi chọn giao hàng.');
                     this.checked = false;
                 } else {
                     // Gửi AJAX request đến /ShipCost endpoint
                     $.ajax({
                         url: '/Ship/ShipCost',
                         type: 'POST',
+
                         data: {
                             name: nameValue,
                             phone: phoneValue,
                             address: resultValue // Include the address here
                         },
+                        beforeSend: function () {
+                            // Trước khi gửi request, hiển thị modal loading
+                            showLoadingModal();
+                        },
                         success: function (totalPrice) {
+                            hideLoadingModal();
                             var parsedTotalPrice = parseFloat(totalPrice);
                             var subTotal = parsedTotalPrice + parseFloat('@ViewBag.TotalPrice');
                             $('#total').text('@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ');
@@ -327,8 +385,10 @@
                             $('#subTotal').text(subTotal.toLocaleString('vi-VN').replace('.', ',') + ' đ');
                         },
                         error: function () {
+                            hideLoadingModal();
+                            console.error(error);
                             // Add error handling logic here
-                            alert('An error occurred while calculating the shipping cost.');
+                            toastr.error('Có lỗi khi tính tiền vận chuyển');
                         }
                     });
                 }
@@ -360,9 +420,7 @@
             var note = $('#note').val().trim();
             var result = $('#result').val().trim();
             var totalPrice = '@ViewBag.TotalPrice';
-
             var paymentMethod = $('input[name=paymentMethod]:checked').val();
-
             var deliveryMethod = $('input[name=deliveryMethod]:checked').val();
 
             var typePayment;
@@ -378,7 +436,8 @@
 
             if (lastName === '' || firstName === '' || city === '' || district === '' || ward === '' || street === '' || phone === '' || email === '' ||  result === '' || !paymentMethod || !deliveryMethod || !typePayment) {
                 // Display error message or alert
-                alert('Vui lòng điền đầy đủ thông tin và chọn phương thức thanh toán và giao hàng.');
+                toastr.error('Vui lòng điền đầy đủ thông tin và chọn phương thức thanh toán và giao hàng.');
+
                 return;
             }
 
@@ -401,14 +460,18 @@
                 url: '/Payment/ProcessPayment',
                 type: 'POST',
                 data: data,
+                beforeSend: function () {
+                    // Trước khi gửi request, hiển thị modal loading
+                    showLoadingModal();
+                },
                 success: function (response) {
                     // Handle success response
-                    console.log(response);
-                    // Redirect to the received URL
-                    window.location.href = response.paymentUrl; // Assuming the response contains a property named paymentUrl
+                    hideLoadingModal();
+                    window.location.href = response.paymentUrl;
                 },
                 error: function (xhr, status, error) {
                     // Handle error response
+                    hideLoadingModal();
                     console.error(error);
                 }
             });

@@ -2778,6 +2778,79 @@ ol {
 	float: right;
 }
 
+
+.loading-spinner {
+	width: 30px;
+	height: 30px;
+	border: 2px solid indigo;
+	border-radius: 50%;
+	border-top-color: #0001;
+	display: inline-block;
+	animation: loadingspinner .7s linear infinite;
+}
+
+@keyframes loadingspinner {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+
+._failed {
+	border-bottom: solid 4px red !important;
+}
+
+	._failed i {
+		color: red !important;
+	}
+
+._success {
+	box-shadow: 0 15px 25px #00000019;
+	padding: 45px;
+	width: 100%;
+	text-align: center;
+	margin: 40px auto;
+	border-bottom: solid 4px #28a745;
+}
+
+	._success i {
+		font-size: 55px;
+		color: #28a745;
+	}
+
+	._success h2 {
+		margin-bottom: 12px;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 1.2;
+		margin-top: 10px;
+	}
+
+	._success p {
+		margin-bottom: 0px;
+		font-size: 18px;
+		color: #495057;
+		font-weight: 500;
+	}
+
+.payment-details {
+	text-align: left;
+	padding-left: 0; /* Remove default left padding */
+}
+
+	.payment-details li {
+		margin-bottom: 10px; /* Add some spacing between list items */
+		font-size: 16px; /* Adjust font size if needed */
+	}
+
+
+
+
+
 /*---------------------
     Blog
 -----------------------*/

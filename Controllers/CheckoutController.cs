@@ -19,8 +19,8 @@ namespace CF_HOATUOIBASANH.Controllers
         {
             _customerRepository = customerRepository;
         }
-
-       // [CustomAuthorize(Roles = "Admin,User,Manager")]
+        //[Authorize]
+        [CustomAuthorize(Roles = "Admin,User,Manager")]
         public async Task<IActionResult> Index()
         {
             string cartJson = HttpContext.Session.GetString("cart");
@@ -30,7 +30,7 @@ namespace CF_HOATUOIBASANH.Controllers
 
             if (cart.Count == 0)
             {
-                //return RedirectToAction("Index", "Shop");
+                return RedirectToAction("Index", "Shop");
             }
 
             double totalPrice = cart.Sum(item => item.Total);
