@@ -8,8 +8,9 @@ namespace CF_HOATUOIBASANH.Interfaces
 
         Order GetOrderById(int orderId);
 
+        IEnumerable<Order> GetAllOrders(); 
         Order UpdateOrder(Order order);
+
         void DeleteOrder(int orderId);
     }
-
 }

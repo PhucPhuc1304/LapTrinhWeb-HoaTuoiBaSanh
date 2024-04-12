@@ -15,5 +15,7 @@ namespace CF_HOATUOIBASANH.Interfaces
 
         // Xóa một chi tiết đơn hàng
         void DeleteDetailOrder(int orderId, int productId);
+        IEnumerable<DetailOrder> GetAllDetailOrders(); // Thêm phương thức này
+
     }
 }

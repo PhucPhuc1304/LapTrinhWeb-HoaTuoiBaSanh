@@ -84,7 +84,7 @@ namespace CF_HOATUOIBASANH.Authencation
             }
             else
             {
-                context.Result = new RedirectToRouteResult(new RouteValueDictionary(new { controller = "Account", action = "Login" }));
+                context.Result = new RedirectToRouteResult(new RouteValueDictionary(new { area = "Home", controller = "Account", action = "Login" }));
             }
         }
 

@@ -2,6 +2,7 @@
 using System.Linq;
 using CF_HOATUOIBASANH.Interface;
 using CF_HOATUOIBASANH.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CF_HOATUOIBASANH.Repositorys
 {
@@ -16,7 +17,7 @@ namespace CF_HOATUOIBASANH.Repositorys
 
         public IEnumerable<Product> GetAll()
         {
-            return _context.Products.ToList();
+            return _context.Products.Include(p => p.Category).ToList();
         }
 
         public IEnumerable<Product> GetByStatus()

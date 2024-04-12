@@ -11,6 +11,10 @@ namespace CF_HOATUOIBASANH.Repositorys
         {
             _context = context;
         }
+        public IEnumerable<DetailOrder> GetAllDetailOrders()
+        {
+            return _context.DetailOrders.ToList();
+        }
 
         public DetailOrder CreateDetailOrder(DetailOrder detailOrder)
         {

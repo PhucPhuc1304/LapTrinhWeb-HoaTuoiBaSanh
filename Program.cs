@@ -1,4 +1,4 @@
-using CF_HOATUOIBASANH.Interface;
+﻿using CF_HOATUOIBASANH.Interface;
 using CF_HOATUOIBASANH.Repositorys;
 using CF_HOATUOIBASANH.Models;
 using Microsoft.EntityFrameworkCore;
@@ -47,12 +47,23 @@ app.UseStaticFiles();
 app.UseRouting();
 
 
-app.UseAuthentication(); 
-app.UseAuthorization(); 
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseSession();
+app.UseEndpoints(endpoints =>
+{
+    // Route for controllers within the Admin area
+    endpoints.MapControllerRoute(
+        name: "admin",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    // Default route for controllers outside the Admin area
+    endpoints.MapControllerRoute(
+        name: "Default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+});
+
 
 app.Run();

@@ -1,0 +1,140 @@
+﻿@using Microsoft.AspNetCore.Http @using CF_HOATUOIBASANH.FormatHelper @{
+	var username = Context.Session.GetString("CustomerLastName");
+} <div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="card card-transparent card-block card-stretch card-height border-none">
+				<div class="card-body p-0 mt-lg-2 mt-0">
+					<h3 class="mb-3">Xin chào @username</h3>
+					<p class="mb-0 mr-4">Bảng điều khiển của bạn cung cấp các chế độ xem về hiệu suất chính hoặc quy trình kinh doanh quan trọng.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-8">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="card card-block card-stretch card-height">
+						<div class="card-body">
+							<div class="d-flex align-items-center mb-4 card-total-sale">
+								<div class="icon iq-icon-box-2 bg-info-light">
+									<img src="~/Admin/assets/images/product/1.png" class="img-fluid" alt="image">
+								</div>
+								<div>
+									<p class="mb-2">Tổng số khách hàng</p>
+									<h4>@ViewBag.CustomerCount KH</h4>
+								</div>
+							</div>
+							<div class="iq-progress-bar mt-2">
+								<span class="bg-info iq-progress progress-1" data-percent="100" style="transition: width 2s ease 0s; width: 100%;"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card card-block card-stretch card-height">
+						<div class="card-body">
+							<div class="d-flex align-items-center mb-4 card-total-sale">
+								<div class="icon iq-icon-box-2 bg-danger-light">
+									<img src="~/Admin/assets/images/product/2.png" class="img-fluid" alt="image">
+								</div>
+								<div>
+									<p class="mb-2">Tổng doanh thu</p>
+									<h4>@FormatHelper.FormatPriceVND((double)@ViewBag.TotalAmount) đ</h4>
+								</div>
+							</div>
+							<div class="iq-progress-bar mt-2">
+								<span class="bg-danger iq-progress progress-1" data-percent="100" style="transition: width 2s ease 0s; width: 100%;"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card card-block card-stretch card-height">
+						<div class="card-body">
+							<div class="d-flex align-items-center mb-4 card-total-sale">
+								<div class="icon iq-icon-box-2 bg-success-light">
+									<img src="~/Admin/assets/images/product/3.png" class="img-fluid" alt="image">
+								</div>
+								<div>
+									<p class="mb-2">Tổng số đơn hàng đã bán</p>
+									<h4>@ViewBag.TotalOrders đơn</h4>
+								</div>
+							</div>
+							<div class="iq-progress-bar mt-2">
+								<span class="bg-success iq-progress progress-1" data-percent="100" style="transition: width 2s ease 0s; width: 100%;"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="col-lg-8">
+            <div class="card card-block card-stretch card-height">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Top sản phẩm</h4>
+                    </div>
+         
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled row top-product mb-0 slick-initialized slick-slider">
+                        @foreach (var product in ViewBag.TopProductsWithImages)
+						{
+                            <li class="col-lg-3 slick-slide slick-cloned">
+                                <div class="card card-block card-stretch card-height mb-0">
+                                    <div class="card-body d-flex flex-column align-items-center">
+                                        <div>
+                                            <img src="@product.ImageUrl" alt="image" width="130" height="130">
+                                        </div>
+                                        <div class="style-text text-left mt-3">
+                                            <h5 class="mb-1">@product.Name</h5>
+                                            <p class="mb-0">@product.TotalQuantity Sản phẩm</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        }
+
+						</ul>
+                       
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card card-transparent card-block card-stretch mb-4">
+                <div class="card-header d-flex align-items-center justify-content-between p-0">
+                    <div class="header-title">
+                        <h4 class="card-title mb-0">Best Item All Time</h4>
+                    </div>
+                    <div class="card-header-toolbar d-flex align-items-center">
+                        <div><a href="#" class="btn btn-primary view-btn font-size-14">View All</a></div>
+                    </div>
+                </div>
+            </div>
+			@foreach (var product in ViewBag.TopRevenueProductsWithImages)
+			{
+				<div class="card card-block card-stretch card-height-helf">
+					<div class="card-body card-item-right">
+						<div class="d-flex align-items-top">
+							<div class="bg-warning-light rounded">
+								<img src="@product.ImageUrl" class="style-img img-fluid m-auto" alt="image" width="130" height="130">
+							</div>
+							<div class="style-text text-left">
+								<h5 class="mb-2">@product.Name</h5>
+								<p class="mb-2">Số lượt bán: @product.TotalQuantity</p>
+								<p class="mb-0">Tổng doanh thu: @FormatHelper.FormatPriceVND((double)product.TotalRevenue) đ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+    </div>
+
+</div>
+
+
+	</div>
+</div>

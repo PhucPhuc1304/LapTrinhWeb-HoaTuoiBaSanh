@@ -1,7 +1,9 @@
 ﻿using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Models;
+using System.Collections.Generic;
+using System.Linq;
 
-public class EFOrderRepository: IOrderRepository
+public class EFOrderRepository : IOrderRepository
 {
     private readonly HoaTuoiBaSanhContext _context;
 
@@ -21,6 +23,12 @@ public class EFOrderRepository: IOrderRepository
     public Order GetOrderById(int orderId)
     {
         return _context.Orders.FirstOrDefault(o => o.OrderID == orderId);
+    }
+
+    // Phương thức lấy tất cả các đơn hàng
+    public IEnumerable<Order> GetAllOrders()
+    {
+        return _context.Orders.ToList();
     }
 
     public Order UpdateOrder(Order order)
