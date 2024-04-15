@@ -1,5 +1,6 @@
 ﻿using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,7 +29,7 @@ public class EFOrderRepository : IOrderRepository
     // Phương thức lấy tất cả các đơn hàng
     public IEnumerable<Order> GetAllOrders()
     {
-        return _context.Orders.ToList();
+        return _context.Orders.Include(o => o.Customer).ToList();
     }
 
     public Order UpdateOrder(Order order)

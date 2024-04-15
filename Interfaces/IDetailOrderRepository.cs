@@ -8,13 +8,13 @@ namespace CF_HOATUOIBASANH.Interfaces
         DetailOrder CreateDetailOrder(DetailOrder detailOrder);
 
         // Lấy thông tin chi tiết đơn hàng dựa trên ID đơn hàng và ID sản phẩm
-        DetailOrder GetDetailOrderByIds(int orderId, int productId);
+        public IEnumerable<DetailOrder> GetDetailOrderByIds(int orderId);
 
         // Cập nhật thông tin của một chi tiết đơn hàng
         DetailOrder UpdateDetailOrder(DetailOrder detailOrder);
 
         // Xóa một chi tiết đơn hàng
-        void DeleteDetailOrder(int orderId, int productId);
+        void DeleteDetailOrder(DetailOrder detailOrder);
         IEnumerable<DetailOrder> GetAllDetailOrders(); // Thêm phương thức này
 
     }

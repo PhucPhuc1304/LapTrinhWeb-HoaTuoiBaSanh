@@ -1,0 +1,140 @@
+﻿<div class="container-fluid add-form-list">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Thêm sản phẩm</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddProduct" method="post" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Tên sản phẩm *</label>
+                                    <input type="text" name="ProductName" class="form-control" placeholder="Nhập Tên" data-errors="Vui lòng nhập tên." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Loại sản phẩm *</label>
+                                    <select name="CategoryID" class="selectpicker form-control" data-style="py-0">
+                                        <option value="">Chọn Loại Sản Phẩm</option>
+                                        @foreach (var category in ViewBag.Categories)
+                                        {
+                                            <option value="@category.Value">@category.Text</option>
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Đơn Vị Tính *</label>
+                                    <select name="ProductUnit" class="selectpicker form-control" data-style="py-0">
+                                            <option value="">Chọn đơn vị tính</option>
+                                            <option value="Bó">Bó</option>
+                                            <option value="Bó 10 Cây">Bó 10 Cây</option>
+                                            <option value="Thùng">Thùng</option>
+                                            <option value="Bó 5 Cây">Bó 5 Cây</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Trạng Thái *</label>
+                                    <select name="ProductStatus" class="selectpicker form-control" data-style="py-0">
+                                        <option value="">Chọn trạng thái</option>
+                                        <option value="Sale">Giảm giá</option>
+                                        <option value="New">Hàng mới</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Giá *</label>
+                                    <input type="number" name="Price" class="form-control" placeholder="Nhập Giá" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Giá Thêm 1 </label>
+                                    <input type="number" name="Price1" class="form-control" placeholder="Nhập Giá Thêm 1">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Giá Thêm 2 </label>
+                                    <input type="number" name="Price2" class="form-control" placeholder="Nhập Giá Thêm 2">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Giá Thêm 3 </label>
+                                    <input type="number" name="Price3" class="form-control" placeholder="Nhập Giá Thêm 3">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Hình Ảnh</label>
+                                    <input type="file" name="Image" class="form-control image-file" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Hình Ảnh 1</label>
+                                    <input type="file" name="Image1" class="form-control image-file" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Hình Ảnh 2</label>
+                                    <input type="file" name="Image2" class="form-control image-file" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Hình Ảnh 3</label>
+                                    <input type="file" name="Image3" class="form-control image-file" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Hình Ảnh 4</label>
+                                    <input type="file" name="Image4" class="form-control image-file" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Mô Tả *</label>
+                                    <textarea name="Description" class="form-control" rows="4" ></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Mô Tả 2</label>
+                                    <textarea name="Description2" class="form-control" rows="4" ></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Mô Tả 3</label>
+                                    <textarea name="Description3" class="form-control" rows="4"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Thêm sản phẩm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

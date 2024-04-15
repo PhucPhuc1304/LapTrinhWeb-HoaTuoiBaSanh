@@ -15,7 +15,7 @@ namespace CF_HOATUOIBASANH.Repositorys
 
         public async Task<Account> GetAccountByIdAsync(int accountId)
         {
-            return await _context.Accounts.FindAsync(accountId);
+            return await _context.Accounts.FirstOrDefaultAsync(a => a.AccountID == accountId);
         }
 
         public async Task<IEnumerable<Account>> GetAllAccountsAsync()

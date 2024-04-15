@@ -188,6 +188,9 @@ namespace CF_HOATUOIBASANH.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<decimal?>("ShipCost")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("ShipStatus")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");

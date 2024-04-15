@@ -1,0 +1,97 @@
+﻿<div class="container-fluid edit-form-list">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Chỉnh sửa thông tin khách hàng</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="EditCustomer" method="post" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Họ *</label>
+                                    <input type="text" name="FirstName" class="form-control" placeholder="Nhập họ" data-errors="Vui lòng nhập họ." value="@ViewBag.Customer.FirstName" required>
+                                    <input type="hidden" name="CustomerId" value="@ViewBag.Customer.CustomerID">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Tên *</label>
+                                    <input type="text" name="LastName" class="form-control" placeholder="Nhập tên" data-errors="Vui lòng nhập tên." value="@ViewBag.Customer.LastName" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Địa chỉ</label>
+                                    <input type="text" name="Address" class="form-control" placeholder="Nhập địa chỉ" value="@ViewBag.Customer.Address">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Điện thoại</label>
+                                    <input type="text" name="Phone" class="form-control" placeholder="Nhập số điện thoại" value="@ViewBag.Customer.Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" name="Email" class="form-control" placeholder="Nhập địa chỉ email" value="@ViewBag.Customer.Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Loại</label>
+                                    <select name="Type" class="form-control">
+                                        @if (ViewBag.Customer.Type == "KH")
+                                        {
+                                            <option value="KH" selected>Khách Hàng</option>
+                                            <option value="NV">Nhân Viên</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="KH">Khách Hàng</option>
+                                            <option value="NV" selected>Nhân Viên</option>
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Mật khẩu</label>
+                                    <input type="password" name="Password" class="form-control" placeholder="Nhập mật khẩu" value="@ViewBag.Account.Password">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Vai trò (Role)</label>
+                                     <select name="Role" class="form-control">
+                                        <option value="">-- Chọn vai trò --</option>
+                                        @foreach (var role in ViewBag.Roles)
+                                        {
+                                            if (role.RoleID.ToString() == ViewBag.RoleAccount.RoleID.ToString())
+                                            {
+                                                <option value="@role.RoleID" selected>@role.RoleName</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@role.RoleID">@role.RoleName</option>
+                                            }
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Cập nhật thông tin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

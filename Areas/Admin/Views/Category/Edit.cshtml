@@ -1,0 +1,31 @@
+﻿@model CF_HOATUOIBASANH.Models.Category
+@using CF_HOATUOIBASANH.FormatHelper
+
+<div class="container-fluid add-form-list">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Sửa loại sản phẩm</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="EditCategory" method="post" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Tên loại sản phẩm *</label>
+                                    <input type="text" name="CategoryName" class="form-control" placeholder="Nhập tên loại sản phẩm" value="@Model.CategoryName" data-errors="Vui lòng nhập tên." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="CategoryID" value="@Model.CategoryID">
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Cập nhật loại sản phẩm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

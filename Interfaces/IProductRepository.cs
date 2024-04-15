@@ -16,6 +16,8 @@ namespace CF_HOATUOIBASANH.Interface
         IEnumerable<Product> GetByStatus();
         IEnumerable<Product> SearchProducts(string searchString);
         IEnumerable<Product> SortProducts(string sortOrder);
+        IEnumerable<Product> GetRelatedProducts(int productId, int count);
+
 
     }
 }

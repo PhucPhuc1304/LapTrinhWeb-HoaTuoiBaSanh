@@ -34,6 +34,7 @@ namespace CF_HOATUOIBASANH.Models
         public string? ShipAddress { get; set; }
         [StringLength(255)]
         public string? Notes { get; set; }
+        public decimal? ShipCost { get; set; }
 
         public decimal? TotalAmount { get; set; }
 

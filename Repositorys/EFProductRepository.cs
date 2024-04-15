@@ -91,6 +91,21 @@ namespace CF_HOATUOIBASANH.Repositorys
                     return products.OrderBy(p => p.ProductName);
             }
         }
+        public IEnumerable<Product> GetRelatedProducts(int productId, int count)
+        {
+            var product = _context.Products.FirstOrDefault(p => p.ProductID == productId);
+            if (product == null)
+            {
+                return Enumerable.Empty<Product>();
+            }
+
+            // Example: Get products with the same category as the current product
+            return _context.Products
+                .Where(p => p.CategoryID == product.CategoryID && p.ProductID != productId)  
+                .OrderBy(p => p.ProductID)
+                .Take(count)
+                .ToList();
+        }
 
     }
 }

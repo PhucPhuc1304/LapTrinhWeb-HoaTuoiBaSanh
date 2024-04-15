@@ -1,5 +1,6 @@
 ﻿using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CF_HOATUOIBASANH.Repositorys
 {
@@ -13,7 +14,7 @@ namespace CF_HOATUOIBASANH.Repositorys
         }
         public IEnumerable<DetailOrder> GetAllDetailOrders()
         {
-            return _context.DetailOrders.ToList();
+            return _context.DetailOrders.Include(d => d.Product).ToList();
         }
 
         public DetailOrder CreateDetailOrder(DetailOrder detailOrder)
@@ -23,9 +24,9 @@ namespace CF_HOATUOIBASANH.Repositorys
             return detailOrder;
         }
 
-        public DetailOrder GetDetailOrderByIds(int orderId, int productId)
+        public IEnumerable<DetailOrder> GetDetailOrderByIds(int orderId)
         {
-            return _context.DetailOrders.FirstOrDefault(d => d.OrderID == orderId && d.ProductID == productId);
+            return _context.DetailOrders.Where(d => d.OrderID == orderId).ToList();
         }
 
         public DetailOrder UpdateDetailOrder(DetailOrder detailOrder)
@@ -35,14 +36,10 @@ namespace CF_HOATUOIBASANH.Repositorys
             return detailOrder;
         }
 
-        public void DeleteDetailOrder(int orderId, int productId)
+        public void DeleteDetailOrder(DetailOrder detailOrder)
         {
-            var detailOrderToDelete = _context.DetailOrders.FirstOrDefault(d => d.OrderID == orderId && d.ProductID == productId);
-            if (detailOrderToDelete != null)
-            {
-                _context.DetailOrders.Remove(detailOrderToDelete);
-                _context.SaveChanges();
-            }
+            _context.DetailOrders.Remove(detailOrder);
+            _context.SaveChanges();
         }
     }
 }

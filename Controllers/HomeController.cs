@@ -20,7 +20,16 @@ namespace CF_HOATUOIBASANH.Controllers
             // You can pass productsByStatus to the view or further process it as needed
             return View(productsByStatus);
         }
+        public IActionResult About()
+        {
+            return View();
 
-       
+        }
+        public IActionResult Contact()
+        {
+            return View();
+
+        }
+
     }
 }

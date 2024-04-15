@@ -1,0 +1,81 @@
+﻿<div class="container-fluid add-form-list">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Thêm khách hàng</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddCustomer" method="post" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Họ *</label>
+                                    <input type="text" name="FirstName" class="form-control" placeholder="Nhập họ" data-errors="Vui lòng nhập họ." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Tên *</label>
+                                    <input type="text" name="LastName" class="form-control" placeholder="Nhập tên" data-errors="Vui lòng nhập tên." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Địa chỉ</label>
+                                    <input type="text" name="Address" class="form-control" placeholder="Nhập địa chỉ">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Điện thoại</label>
+                                    <input type="text" name="Phone" class="form-control" placeholder="Nhập số điện thoại">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" name="Email" class="form-control" placeholder="Nhập địa chỉ email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Loại</label>
+                                    <select name="Type" class="form-control">
+                                        <option value="KH">Khách Hàng</option>
+                                        <option value="NV">Nhân Viên</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Mật khẩu</label>
+                                    <input type="password" name="Password" class="form-control" placeholder="Nhập mật khẩu">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Vai trò (Role)</label>
+                                    <select name="Role" class="form-control">
+                                        <option value="">-- Chọn vai trò --</option>
+                                        @foreach (var role in ViewBag.Role)
+                                        {
+                                            <option value="@role.RoleID">@role.RoleName</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Thêm khách hàng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

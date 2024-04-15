@@ -3,6 +3,7 @@ using CF_HOATUOIBASANH.Models;
 using Microsoft.AspNetCore.Mvc;
 using CF_HOATUOIBASANH.FormatHelper;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authentication;
 namespace CF_HOATUOIBASANH.Controllers
 {
     public class AccountController : Controller
@@ -23,7 +24,11 @@ namespace CF_HOATUOIBASANH.Controllers
         }
         public IActionResult Logout()
         {
-            return View();
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Remove("LoggedInAccount");
+            HttpContext.Session.Remove("CustomerLastName");
+            HttpContext.Session.Remove("RoleName");
+            return RedirectToAction("Index", "Home");
         }
         public IActionResult Register()
         {

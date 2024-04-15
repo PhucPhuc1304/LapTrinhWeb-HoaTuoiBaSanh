@@ -1,0 +1,210 @@
+﻿<div class="container-fluid add-form-list">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Thêm đơn hàng</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddOrder" method="post" data-toggle="validator" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Form fields for Order -->
+                                <div class="form-group">
+                                    <label for="customerSelect">Tên khách hàng *</label>
+                                    <select name="CustomerID" id="customerSelect" class="form-control" required>
+                                        <option value="">Chọn khách hàng</option>
+                                        @foreach (var customer in ViewBag.Customers)
+                                        {
+                                            <option value="@customer.CustomerID">@customer.FirstName @customer.LastName</option>
+                                        }
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="deliveryMethodSelect">Phương thức giao hàng *</label>
+                                    <select name="DeliveryMethod" id="deliveryMethodSelect" class="form-control" required>
+                                        <option value="">Chọn phương thức giao hàng</option>
+                                        <option value="OnShop">OnShop</option>
+                                        <option value="Ahamove">Giao Hàng bằng Ahamove</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="payMethodSelect">Phương thức thanh toán</label>
+                                    <select name="PayMethod" id="payMethodSelect" class="form-control">
+                                        <option value="">Chọn phương thức thanh toán</option>
+                                        <option value="COD">Thanh toán bằng tiền mặt</option>
+                                        <option value="VNPAY">Chuyển khoản ngân hàng</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="payStatusSelect">Trạng thái thanh toán</label>
+                                    <select name="PayStatus" id="payStatusSelect" class="form-control">
+                                        <option value="">Chọn trạng thái thanh toán</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="Success">Success</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="shipStatusSelect">Trạng thái giao hàng</label>
+                                    <select name="ShipStatus" id="shipStatusSelect" class="form-control">
+                                        <option value="">Chọn trạng thái giao hàng</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="Success">Success</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Địa chỉ giao hàng*</label>
+                                    <input type="text" name="ShipAddress" class="form-control" placeholder="Nhập địa chỉ giao hàng" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phí giao hàng</label>
+                                    <input type="number" name="ShipCost" class="form-control" placeholder="Nhập phí giao hàng">
+                                </div>
+                                <div class="form-group">
+                                    <label>Ghi chú</label>
+                                    <textarea name="Notes" class="form-control" rows="4" placeholder="Nhập ghi chú"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <h5 class="card-title">Chi tiết đơn hàng</h5>
+                                    <table class="table table-bordered" id="detailTable">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Mã sản phẩm</th>
+                                                <th scope="col">Số lượng</th>
+                                                <th scope="col"></th> <!-- New column for delete button -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-group">
+                                                        <select name="ProductID[]" id="productSelect" class="form-control">
+                                                            <option value="">Chọn mã sản phẩm</option>
+                                                            @foreach (var product in ViewBag.Products)
+                                                            {
+                                                                <option value="@product.ProductID">@product.ProductName</option>
+                                                            }
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <input type="number" name="Quantity[]" class="form-control" placeholder="Nhập số lượng">
+                                                </td>
+                                                <td>
+                                                    <!-- Delete button column -->
+                                                    <button type="button" class="btn btn-danger btn-sm" onclick="removeRow(this)">
+                                                        <i class="fa fa-times"></i> <!-- Use any delete icon here -->
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <button type="button" class="btn btn-primary" id="addDetailRow">Thêm hàng hóa</button>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="submitForm">Thêm đơn hàng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2/20160511/json2.min.js"></script> 
+  
+    <!-- Import JSON2 library for JSON serialization -->
+    <script>
+        $(document).ready(function () {
+            var products = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.Products)); // Serialize ViewBag.Products directly
+
+            $("#addDetailRow").click(function () {
+                var newRow = '<tr>' +
+                    '<td><select name="ProductID[]" class="form-control"><option value="">Chọn mã sản phẩm</option>';
+
+                // Loop through the products array and add options to the select box
+                $.each(products, function (index, product) {
+                    newRow += '<option value="' + product.ProductID + '">' + product.ProductName + '</option>';
+                });
+
+                newRow += '</select></td>' +
+                    '<td><input type="number" name="Quantity[]" class="form-control" placeholder="Nhập số lượng"></td>' +
+                    '<td><button type="button" class="btn btn-danger btn-sm" onclick="removeRow(this)"><i class="fa fa-times"></i></button></td>' + // Delete button
+                    '</tr>';
+                $("#detailTable tbody").append(newRow);
+            });
+        });
+
+        function removeRow(button) {
+            // Get the reference to the parent row and remove it
+            var row = button.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+        $(document).ready(function () {
+            $("#submitForm").click(function () {
+                var customerID = $("#customerSelect").val();
+                var deliveryMethod = $("#deliveryMethodSelect").val();
+                var payMethod = $("#payMethodSelect").val();
+                var payStatus = $("#payStatusSelect").val();
+                var shipStatus = $("#shipStatusSelect").val();
+                var shipAddress = $("input[name='ShipAddress']").val();
+                var shipCost = $("input[name='ShipCost']").val();
+                var notes = $("textarea[name='Notes']").val();
+
+                // Tạo một mảng để lưu trữ thông tin của OrderDetails
+                var orderDetails = [];
+
+                // Lặp qua từng hàng trong bảng chi tiết đơn hàng để lấy thông tin và thêm vào mảng orderDetails
+                $("#detailTable tbody tr").each(function () {
+                    var productID = $(this).find("select[name='ProductID[]']").val();
+                    var quantity = $(this).find("input[name='Quantity[]']").val();
+
+                    // Kiểm tra nếu cả productID và quantity không trống mới thêm vào orderDetails
+                    if (productID !== "" && quantity !== "") {
+                        var orderDetail = { ProductID: productID, Quantity: quantity };
+                        orderDetails.push(orderDetail);
+                    }
+                });
+
+                // Gửi dữ liệu đơn hàng lên server bằng AJAX
+                $.ajax({
+                    url: "AddOrder", // Đường dẫn tới phương thức xử lý ở controller
+                    type: "POST",
+                    data: {
+                        customerID: customerID,
+                        deliveryMethod: deliveryMethod,
+                        payMethod: payMethod,
+                        payStatus: payStatus,
+                        shipStatus: shipStatus,
+                        shipAddress: shipAddress,
+                        shipCost: shipCost,
+                        notes: notes,
+                        orderDetails: orderDetails
+                    },
+                    success: function (response) {
+                        alert(response);
+                        window.location.href = '/Admin/Order'; 
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert(xhr.responseText);
+                    }
+                });
+            });
+        });
+
+
+    </script>

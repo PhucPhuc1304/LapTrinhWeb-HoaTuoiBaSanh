@@ -34,6 +34,7 @@ namespace CF_HOATUOIBASANH.Controllers
         public async Task<IActionResult> ProcessPayment(string lastName, string firstName, string phone, string email, string note, string result, string paymentMethod, string deliveryMethod, string typePayment, bool useShip, double totalPrice)
         {
             var total = totalPrice;
+            double shippingPrice = 0;
             var url = "";
             DateTime currentTime = DateTime.Now;
 
@@ -45,7 +46,7 @@ namespace CF_HOATUOIBASANH.Controllers
                     var shipCostResponse = await shipController.ShipCost(firstName, phone, result);
                     var shipCostResponseObjectResult = shipCostResponse as OkObjectResult;
                     var ship_ = shipCostResponseObjectResult.Value;
-                    double shippingPrice = Convert.ToDouble(ship_);
+                    shippingPrice = Convert.ToDouble(ship_);
                     total += shippingPrice;
 
                 }
@@ -68,6 +69,7 @@ namespace CF_HOATUOIBASANH.Controllers
                     DeliveryMethod = deliveryMethod,
                     Note = note,
                     ShipAddress = result,
+                    ShipCost = shippingPrice
                 };
 
 
@@ -100,7 +102,9 @@ namespace CF_HOATUOIBASANH.Controllers
                     ShipStatus = "Pending",
                     Notes = note != "" ? note : null,
                     ShipAddress = result,
-                    TotalAmount = (decimal?)total 
+                    TotalAmount = (decimal?)total,
+                    ShipCost = (decimal?)shippingPrice
+
                 };
 
                 Order createdOrder = _orderRepository.CreateOrder(order);
@@ -141,7 +145,8 @@ namespace CF_HOATUOIBASANH.Controllers
             string deliveryMethod = parts[0]; 
             string shipAddress = parts[1];
             string note = parts[3];
-            string nameDescriptionAmount = parts[4]; 
+            decimal shipCost = decimal.Parse(parts[4]);
+            string nameDescriptionAmount = parts[5]; 
             string[] nameDescAmountParts = nameDescriptionAmount.Split(' ');
             string amount = nameDescAmountParts[^1];
             decimal totalDecimal = decimal.Parse(amount);
@@ -169,7 +174,8 @@ namespace CF_HOATUOIBASANH.Controllers
                     ShipAddress = shipAddress,
                     ShipStatus = "Pending",
                     Notes = note != "" ? note : null,
-                    TotalAmount = (decimal?)totalDecimal
+                    TotalAmount = (decimal?)totalDecimal,
+                    ShipCost = shipCost
                 };
 
                 Order createdOrder = _orderRepository.CreateOrder(order);

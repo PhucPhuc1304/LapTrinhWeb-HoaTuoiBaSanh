@@ -89,19 +89,18 @@
                 <div class="col-lg-7 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                            <li><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
                             <li><a href="@Url.Action("Index", "Shop")">Shop</a></li>
                             <li>
                                 <a href="#">Danh mục</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html">Hoa tươi</a></li>
-                                    <li><a href="./shop-details.html">Các loại lá</a></li>
-                                    <li><a href="./shop-details.html">Phụ kiện</a></li>
-                                    <li><a href="./shopping-cart.html">Giỏ hàng</a></li>
-                                    <li><a href="./checkout.html">Thanh toán</a></li>
+                                    <li><a href="/Shop">Hoa tươi</a></li>
+                  
+                                    <li><a href="/Shop?categoryFilter=6">Phụ kiện</a></li>
+                                    <li><a href="/Shop/Cart">Giỏ hàng</a></li>
+                                    <li><a href="/Checkout">Thanh toán</a></li>
                                 </ul>
                             </li>
-                            <li><a href="@Url.Action("Blog", "Home")">Blog</a></li>
                             <li><a href="@Url.Action("About", "Home")">Giới thiệu</a></li>
                             <li><a href="@Url.Action("Contact", "Home")">Liên hệ</a></li>
                         </ul>

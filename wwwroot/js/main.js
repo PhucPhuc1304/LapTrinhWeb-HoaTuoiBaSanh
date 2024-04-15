@@ -108,6 +108,30 @@
         $(".product__color__select label, .shop__sidebar__size label, .product__details__option__size label").removeClass('active');
         $(this).addClass('active');
     });
+    $(document).ready(function () {
+        // Get the current URL path
+        var currentUrl = window.location.pathname;
+
+        // Remove trailing slashes from the current URL path
+        currentUrl = currentUrl.replace(/\/$/, '');
+
+        // Check if the current URL path is '/Shop', '/Shop/Cart', or '/Checkout'
+        if (currentUrl === '/Shop' || currentUrl === '/Shop/Cart' || currentUrl === '/Checkout') {
+            // Add the 'active' class to the closest 'li' element of the link with href '/Shop'
+            $('.header__menu ul li a[href="/Shop"]').closest('li').addClass('active');
+        } else if (currentUrl === '/Home/About') {
+            // Add the 'active' class to the closest 'li' element of the link with href '/Home/About'
+            $('.header__menu ul li a[href="/Home/About"]').closest('li').addClass('active');
+        } else if (currentUrl === '/Home/Contact') {
+            // Add the 'active' class to the closest 'li' element of the link with href '/Home/Contact'
+            $('.header__menu ul li a[href="/Home/Contact"]').closest('li').addClass('active');
+        } else {
+            // Default: Add the 'active' class to the closest 'li' element of the link with href '/'
+            $('.header__menu ul li a[href="/"]').closest('li').addClass('active');
+        }
+    });
+
+
 
     /*-------------------
 		Scroll

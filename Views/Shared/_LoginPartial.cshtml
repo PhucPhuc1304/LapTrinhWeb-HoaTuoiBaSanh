@@ -7,7 +7,7 @@
 @if (!string.IsNullOrEmpty(username))
 {
     <a class="text">Xin chào @username</a>
-    @Html.ActionLink("Đăng Xuất", "Logout", "Home", routeValues: null, htmlAttributes: new { @class = "text" })
+    @Html.ActionLink("Đăng Xuất", "Logout", "Account", routeValues: null, htmlAttributes: new { @class = "text" })
 }
 else
 {

@@ -118,7 +118,19 @@ namespace CF_HOATUOIBASANH.Controllers
             var pagedProducts = products.ToPagedList(pageNumber, pageSize);
             return View(pagedProducts);
         }
-        public ActionResult Cart()
+
+
+
+        public ActionResult Detail(int id)
+        {
+            var product = _productRepository.GetById(id);
+            ViewBag.Product = product;
+            var relatedProducts = _productRepository.GetRelatedProducts(id, 4);
+            ViewBag.RelatedProducts = relatedProducts;
+
+            return View();
+        }
+            public ActionResult Cart()
         {
             string cartJson = HttpContext.Session.GetString("cart");
             List<CartModel> cart = string.IsNullOrEmpty(cartJson)

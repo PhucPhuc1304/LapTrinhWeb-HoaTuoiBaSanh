@@ -9,4 +9,6 @@ public class PaymentInformationModel
     public string DeliveryMethod { get; set; }
     public string Note { get; set; }    
     public string ShipAddress { get; set; }
+
+    public double ShipCost { get; set; }
 }

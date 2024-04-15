@@ -1,0 +1,54 @@
+﻿@model IEnumerable<CF_HOATUOIBASANH.Models.Category>
+@using CF_HOATUOIBASANH.FormatHelper
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
+                <div>
+                    <h4 class="mb-3">Danh sách loại sản phẩm</h4>
+                    <p class="mb-0">
+                        Cung cấp thông tin chi tiết về mỗi loại sản phẩm như tên và mô tả, giúp người dùng hiểu rõ về các loại sản phẩm có trong cửa hàng.
+                    </p>
+                </div>
+                <a asp-area="Admin" asp-controller="Category" asp-action="Add" class="btn btn-primary add-list"><i class="las la-plus mr-3"></i>Thêm loại sản phẩm</a>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="table-responsive rounded mb-3">
+                <table class="data-tables table mb-0 tbl-server-info dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                    <thead class="bg-white text-uppercase">
+                        <tr class="ligth ligth-data" role="row">
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Tên loại: activate to sort column ascending" style="width: 305.203px;">Tên loại</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mã loại: activate to sort column ascending" style="width: 113.328px;">Mã loại</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Hành động: activate to sort column ascending" style="width: 171.406px;">Hành động</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="ligth-body">
+                        @foreach (var category in Model)
+                        {
+                            <tr class="odd">
+                                <td>@category.CategoryName</td>
+                                <td>@category.CategoryID</td>
+                                <td>
+                                    <div class="d-flex align-items-center list-action">
+                                        <a class="badge bg-success mr-2" data-toggle="tooltip" data-placement="top" title="Edit"
+                                           asp-controller="Category" asp-action="Edit" asp-route-id="@category.CategoryID">
+                                            <i class="ri-pencil-line mr-0"></i>
+                                        </a>
+                                        <a class="badge bg-warning mr-2" data-toggle="tooltip" data-placement="top" title="Delete"
+                                           asp-controller="Category" asp-action="Delete" asp-route-id="@category.CategoryID">
+                                            <i class="ri-delete-bin-line mr-0"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Page end  -->
+</div>

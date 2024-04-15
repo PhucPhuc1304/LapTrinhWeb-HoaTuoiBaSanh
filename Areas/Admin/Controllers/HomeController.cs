@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    //[CustomAuthorize(Roles = "Admin")]
 
     public class HomeController : Controller
     {

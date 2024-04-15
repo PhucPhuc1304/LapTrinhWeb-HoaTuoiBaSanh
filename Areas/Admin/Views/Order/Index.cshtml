@@ -1,0 +1,201 @@
+﻿@{
+    var orders = ViewBag.Orders as IEnumerable<CF_HOATUOIBASANH.Models.Order>;
+
+}
+@using CF_HOATUOIBASANH.FormatHelper
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
+                <div>
+                    <h4 class="mb-3">Danh sách đơn hàng</h4>
+                    <p class="mb-0">
+                        Cung cấp thông tin chi tiết về mỗi đơn hàng như mã, khách hàng, phương thức giao hàng, ngày tạo, và trạng thái, giúp người dùng quản lý và xem thông tin đơn hàng một cách thuận tiện.
+                    </p>
+                </div>
+                <a asp-area="Admin" asp-controller="Order" asp-action="Add" class="btn btn-primary add-list"><i class="las la-plus mr-3"></i>Thêm đơn hàng</a>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="table-responsive rounded mb-3">
+                <table class="data-tables table mb-0 tbl-server-info dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                    <thead class="bg-white text-uppercase">
+                        <tr class="ligth ligth-data" role="row">
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mã đơn hàng: activate to sort column ascending">Mã <br />ĐH</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Khách hàng: activate to sort column ascending">Tên khách hàng</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Phương thức giao hàng: activate to sort column ascending" >Ship</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Ngày tạo: activate to sort column ascending">Ngày tạo</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Phương thức thanh toán: activate to sort column ascending">Thanh toán</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Trạng thái thanh toán: activate to sort column ascending">Trạng thái <br />thanh toán</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Trạng thái giao hàng: activate to sort column ascending">Trạng thái <br />giao hàng</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Tổng tiền: activate to sort column ascending">Tổng tiền</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Hành động: activate to sort column ascending">Hành động</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="ligth-body">
+                        @foreach (var order in orders)
+                        {
+                            <tr class="odd">
+                                <td>@order.OrderID</td>
+                                <td>
+                                    <input type="hidden" name="customerId" value="@order.CustomerID" />
+                                    @order.Customer.LastName 
+                                </td>
+                                <td>@order.DeliveryMethod</td>
+                                <td>@order.CreateDate.ToString("dd/MM/yyyy")</td>
+                                <td>@order.PayMethod</td>
+                                <td>
+                                    @Html.Raw(order.PayStatus == "Pending" ?
+                                             "<div class='badge badge-warning'>Pending</div>" :
+                                             "<div class='badge badge-success'>Success</div>")
+                                </td>
+
+                                <td>
+                                    @Html.Raw(order.ShipStatus == "Pending" ?
+                                             "<div class='badge badge-warning'>Pending</div>" :
+                                             "<div class='badge badge-success'>Success</div>")
+                                </td>
+
+                                <td>@FormatHelper.FormatPriceVND((double)order.TotalAmount) đ</td>
+                                <td>
+                                    <div class="d-flex align-items-center list-action">
+                                        <a class="badge badge-info mr-2" data-toggle="modal" data-target="#orderModal-@order.OrderID" data-placement="top" title="" data-original-title="View" href="#"><i class="ri-eye-line mr-0"></i></a>
+                                        <a class="badge bg-success mr-2" data-toggle="tooltip" data-placement="top" title="Edit"
+                                           asp-controller="Order" asp-action="Edit" asp-route-id="@order.OrderID">
+                                            <i class="ri-pencil-line mr-0"></i>
+                                        </a>
+                                        <a class="badge bg-warning mr-2" data-toggle="tooltip" data-placement="top" title="Delete"
+                                           asp-controller="Order" asp-action="Delete" asp-route-id="@order.OrderID">
+                                            <i class="ri-delete-bin-line mr-0"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Page end  -->
+</div>
+@foreach (var order in ViewBag.orders)
+{
+    double subtotal = 0;
+    double shipCost = 0;
+    decimal  totalAmount = 0;
+
+    <div class="modal fade" id="orderModal-@order.OrderID" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel-@order.OrderID" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel-@order.OrderID">Thông tin đơn hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="font-weight-bold">Mã đơn hàng:</span> <span>@order.OrderID</span>
+                                <br>
+                                <span class="font-weight-bold">Tên khách hàng:</span> <span>@order.Customer?.LastName</span>
+                                <br>
+                                <span class="font-weight-bold">Địa chỉ giao hàng:</span> <span>@order.ShipAddress</span>
+                                <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="font-weight-bold">Hình thức thanh toán:</span> <span>@order.PayMethod</span>
+                                <br>
+                                <span class="font-weight-bold">Trạng thái thanh toán:</span>
+                                <span>
+                                    @if (order.PayStatus == "Pending")
+                                    {
+                                        <div class="badge badge-warning">Pending</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="badge badge-success">Success</div>
+                                    }
+                                </span>
+                                <br>
+                                <span class="font-weight-bold">Trạng thái giao hàng:</span>
+                                <span>
+                                    @if (order.ShipStatus == "Pending")
+                                    {
+                                        <div class="badge badge-warning">Pending</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="badge badge-success">Success</div>
+                                    }
+                                </span>
+                                <br>
+                                <span class="font-weight-bold">Ngày tạo:</span> <span>@order.CreateDate.ToString("dd/MM/yyyy")</span>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h6 class="font-weight-bold">Chi tiết đơn hàng</h6>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Mã sản phẩm</th>
+                                            <th scope="col">Tên sản phẩm</th>
+                                            <th scope="col">Số lượng</th>
+                                            <th scope="col">Giá</th>
+                                            <th scope="col">Thành tiền</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (ViewBag.OrderDetails.ContainsKey(order.OrderID))
+                                        {
+                                            foreach (var detail in ViewBag.OrderDetails[order.OrderID])
+                                            {
+                                                subtotal += (double)((detail.Product?.Price ?? 0) * detail.Quantity);
+                                                <tr>
+                                                    <td>@detail.ProductID</td>
+                                                    <td>@detail.Product?.ProductName</td>
+                                                    <td>@detail.Quantity</td>
+                                                    <td>@FormatHelper.FormatPriceVND((double)(detail.Product?.Price ?? 0))</td>
+                                                    <td>@FormatHelper.FormatPriceVND((double)(detail.Product?.Price ?? 0) * detail.Quantity)</td>
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="5">No details available</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3">
+                            <div class="col-md-12 text-right">
+                                <span class="font-weight-bold">Tổng tiền hàng:</span> <span>@FormatHelper.FormatPriceVND(subtotal)</span>
+                                <br>
+                                <span class="font-weight-bold">Tổng tiền ship:</span> <span>@FormatHelper.FormatPriceVND((double)order.ShipCost)</span>
+                                <br>
+                                <span class="font-weight-bold">Thành tiền:</span> <span>@FormatHelper.FormatPriceVND((double)order.TotalAmount)</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

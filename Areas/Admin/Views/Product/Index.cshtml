@@ -1,75 +1,145 @@
 ﻿@model IEnumerable<CF_HOATUOIBASANH.Models.Product>
 @using CF_HOATUOIBASANH.FormatHelper
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
             <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
                 <div>
-                    <h4 class="mb-3">Product List</h4>
-                    <p class="mb-0">The product list effectively dictates product presentation and provides space<br> to list your products and offering in the most appealing way.</p>
+                    <h4 class="mb-3">Danh sách sản phẩm</h4>
+                    <p class="mb-0">
+                        Cung cấp thông tin chi tiết về mỗi sản phẩm như tên, mã, loại, giá cả và trạng thái, giúp người dùng quản lý và tìm kiếm sản phẩm một cách thuận tiện.
+                    </p>
                 </div>
-                <a href="page-add-product.html" class="btn btn-primary add-list"><i class="las la-plus mr-3"></i>Add Product</a>
+                <a asp-area="Admin" asp-controller="Product" asp-action="Add" class="btn btn-primary add-list"><i class="las la-plus mr-3"></i>Thêm sản phẩm</a>
             </div>
         </div>
         <div class="col-lg-12">
             <div class="table-responsive rounded mb-3">
-                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
-                        <div class="col-sm-12">
-                            <table class="data-tables table mb-0 tbl-server-info dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
-                                <thead class="bg-white text-uppercase">
-                                    <tr class="ligth ligth-data" role="row">
-        
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Sản phẩm: activate to sort column ascending" style="width: 305.203px;">Sản phẩm</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mã: activate to sort column ascending" style="width: 113.328px;">Mã</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Loại: activate to sort column ascending" style="width: 123.094px;">Loại</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Đơn vị tính: activate to sort column ascending" style="width: 158.547px;">Đơn vị tính</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Trạng thái: activate to sort column ascending" style="width: 120.438px;">Trạng thái</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Giá: activate to sort column ascending" style="width: 106.297px;">Giá</th>
-                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Hành động: activate to sort column ascending" style="width: 171.406px;">Hành động</th>
-
-                                    </tr>
-                                </thead>
-                                <tbody class="ligth-body">
-
-
-
-
-
-
-                                     @foreach (var product in Model)
-                                {
-
-
-                                    <tr class="odd">
-
-                                        <td>
-                                            <div class="d-flex align-items-center">
-                                                <img src="@product.Image" class="img-fluid rounded avatar-50 mr-3" alt="image">
-                                                <div>
-                                                    @product.ProductName
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>@product.ProductID</td>
-                                        <td>@product.Category.CategoryName</td>
-                                        <td>@product.ProductUnit</td>
-                                        <td>@product.ProductStatus</td>
-                                        <td>@FormatHelper.FormatPriceVND((double)product.Price) đ</td>
-                                        <td>
-                                            <div class="d-flex align-items-center list-action">
-                                                <a class="badge badge-info mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View" href="#"><i class="ri-eye-line mr-0"></i></a>
-                                                <a class="badge bg-success mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                                <a class="badge bg-warning mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
-                            </table>
-                        </div>
-                </div>
+                <table class="data-tables table mb-0 tbl-server-info dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                    <thead class="bg-white text-uppercase">
+                        <tr class="ligth ligth-data" role="row">
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Sản phẩm: activate to sort column ascending" style="width: 305.203px;">Sản phẩm</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Mã: activate to sort column ascending" style="width: 113.328px;">Mã</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Loại: activate to sort column ascending" style="width: 123.094px;">Loại</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Đơn vị tính: activate to sort column ascending" style="width: 158.547px;">Đơn vị tính</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Trạng thái: activate to sort column ascending" style="width: 120.438px;">Trạng thái</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Giá: activate to sort column ascending" style="width: 106.297px;">Giá</th>
+                            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Hành động: activate to sort column ascending" style="width: 171.406px;">Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody class="ligth-body">
+                        @foreach (var product in Model)
+                        {
+                            <tr class="odd">
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="@product.Image" class="img-fluid rounded avatar-50 mr-3" alt="image">
+                                        <div>@product.ProductName</div>
+                                    </div>
+                                </td>
+                                <td>@product.ProductID</td>
+                                <td>@product.Category.CategoryName</td>
+                                <td>@product.ProductUnit</td>
+                                <td>@product.ProductStatus</td>
+                                <td>@FormatHelper.FormatPriceVND((double)product.Price) đ</td>
+                                <td>
+                                    <div class="d-flex align-items-center list-action">
+                                        <a class="badge badge-info mr-2" data-toggle="modal" data-target="#productModal-@product.ProductID" data-placement="top" title="" data-original-title="View" href="#"><i class="ri-eye-line mr-0"></i></a>
+                                        <a class="badge bg-success mr-2" data-toggle="tooltip" data-placement="top" title="Edit"
+                                           asp-controller="Product" asp-action="Edit" asp-route-id="@product.ProductID">
+                                            <i class="ri-pencil-line mr-0"></i>
+                                        </a>
+                                        <a class="badge bg-warning mr-2" data-toggle="tooltip" data-placement="top" title="Delete"
+                                           asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductID">
+                                            <i class="ri-delete-bin-line mr-0"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
     <!-- Page end  -->
 </div>
+
+@foreach (var product in Model)
+{
+    <div class="modal fade" id="productModal-@product.ProductID" tabindex="-1" role="dialog" aria-labelledby="productModalLabel-@product.ProductID" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel-@product.ProductID">Chi tiết sản phẩm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="font-weight-bold">Tên sản phẩm:</span> <span>@(!string.IsNullOrEmpty(product.ProductName) ? product.ProductName : "Không có thông tin")</span>
+                                <br>
+                                <span class="font-weight-bold">Mã sản phẩm:</span> <span>@product.ProductID</span>
+                                <br>
+                                <span class="font-weight-bold">Giá:</span> <span>@((product.Price != null) ? FormatHelper.FormatPriceVND((double)product.Price) + " đ" : "Không có thông tin")</span>
+                                <br>
+                                <span class="font-weight-bold">Giá 2:</span> <span>@((product.Price2 != null) ? FormatHelper.FormatPriceVND((double)product.Price2) + " đ" : "Không có thông tin")</span>
+                                <br>
+                            </div>
+                            <div class="col-md-6">
+                                <span class="font-weight-bold">Loại:</span> <span>@(product.Category != null && !string.IsNullOrEmpty(product.Category.CategoryName) ? product.Category.CategoryName : "Không có thông tin")</span>
+                                <br>
+                                <span class="font-weight-bold">Trạng thái:</span> <span>@(!string.IsNullOrEmpty(product.ProductStatus) ? product.ProductStatus : "Không có thông tin")</span>
+                                <br>
+                                <span class="font-weight-bold">Giá 1:</span> <span>@((product.Price1 != null) ? FormatHelper.FormatPriceVND((double)product.Price1) + " đ" : "Không có thông tin")</span>
+                                <br>
+                                <span class="font-weight-bold">Giá 3:</span> <span>@((product.Price3 != null) ? FormatHelper.FormatPriceVND((double)product.Price3) + " đ" : "Không có thông tin")</span>
+                                <br>
+                            </div>
+                            <div class="col-md-12">
+                                <span class="font-weight-bold">Mô tả:</span> @(!string.IsNullOrEmpty(product.Description) ? Html.Raw(product.Description) : "Không có thông tin")
+                                <br>
+                                <span class="font-weight-bold">Mô tả 2:</span> @(!string.IsNullOrEmpty(product.Description2) ? Html.Raw(product.Description2) : "Không có thông tin")
+                                <br>
+                                <span class="font-weight-bold">Mô tả 3:</span> @(!string.IsNullOrEmpty(product.Description3) ? Html.Raw(product.Description3) : "Không có thông tin")
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                @if (!string.IsNullOrEmpty(product.Image))
+                                {
+                                    <span class="font-weight-bold">Ảnh:</span> <img src="@product.Image" alt="Image" style="max-width: 100%;">
+                                }
+                                @if (!string.IsNullOrEmpty(product.Image1))
+                                {
+                                    <span class="font-weight-bold">Ảnh 1:</span> <img src="@product.Image1" alt="Image 1" style="max-width: 100%;">
+                                }
+                                @if (!string.IsNullOrEmpty(product.Image2))
+                                {
+                                    <span class="font-weight-bold">Ảnh 2:</span> <img src="@product.Image2" alt="Image 2" style="max-width: 100%;">
+                                }
+                                @if (!string.IsNullOrEmpty(product.Image3))
+                                {
+                                    <span class="font-weight-bold">Ảnh 3:</span> <img src="@product.Image3" alt="Image 3" style="max-width: 100%;">
+                                }
+                                @if (!string.IsNullOrEmpty(product.Image4))
+                                {
+                                    <span class="font-weight-bold">Ảnh 4:</span> <img src="@product.Image4" alt="Image 4" style="max-width: 100%;">
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

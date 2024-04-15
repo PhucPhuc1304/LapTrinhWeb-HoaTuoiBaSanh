@@ -1,0 +1,246 @@
+﻿@using CF_HOATUOIBASANH.FormatHelper
+
+<section class="shop-details">
+    <div class="product__details__pic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="product__details__breadcrumb">
+                        <a href="/home">Trang chủ</a>
+                        <a href="/shop">Shop</a>
+                        <span>Chi tiết sản phẩm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        @if (ViewBag.Product.Image != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
+                                    <div class="product__thumb__pic set-bg" data-setbg="@ViewBag.Product.Image">
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                        @if (ViewBag.Product.Image1 != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " data-toggle="tab" href="#tabs-2" role="tab">
+                                    <div class="product__thumb__pic set-bg" data-setbg="@ViewBag.Product.Image1">
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                        @if (ViewBag.Product.Image2 != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " data-toggle="tab" href="#tabs-3" role="tab">
+                                    <div class="product__thumb__pic set-bg" data-setbg="@ViewBag.Product.Image2">
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                        @if (ViewBag.Product.Image3 != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">
+                                    <div class="product__thumb__pic set-bg" data-setbg="@ViewBag.Product.Image3">
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                        @if (ViewBag.Product.Image4 != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">
+                                    <div class="product__thumb__pic set-bg" data-setbg="@ViewBag.Product.Image4">
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+                <div class="col-lg-6 col-md-9">
+                    <div class="tab-content">
+                          @if (ViewBag.Product.Image != null)
+                        {
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="product__details__pic__item">
+                                    <img src="@ViewBag.Product.Image" alt="" style="width: 100%; height: auto;">
+                                </div>
+                        </div>
+                        }
+                        @if (ViewBag.Product.Image1 != null)
+                        {
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="product__details__pic__item">
+                                    <img src="@ViewBag.Product.Image1" alt="" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
+                        }
+                        @if (ViewBag.Product.Image2 != null)
+                        {
+                            <div class="tab-pane " id="tabs-3" role="tabpanel">
+                                <div class="product__details__pic__item">
+                                    <img src="@ViewBag.Product.Image2" alt="" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
+                        }
+                        @if (ViewBag.Product.Image3 != null)
+                        {
+                            <div class="tab-pane" id="tabs-4" role="tabpanel">
+                                <div class="product__details__pic__item">
+                                    <img src="@ViewBag.Product.Image3" alt="" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
+                        } @if (ViewBag.Product.Image4 != null)
+                        {
+                            <div class="tab-pane" id="tabs-5" role="tabpanel">
+                                <div class="product__details__pic__item">
+                                    <img src="@ViewBag.Product.Image4" alt="" style="width: 100%; height: auto;">
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product__details__content">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="product__details__text">
+                        <h4>@ViewBag.Product.ProductName</h4>
+                        <h3>@FormatHelper.FormatPriceVND((double)@ViewBag.Product.Price) đ</h3>
+                        <p>
+                            Chuyên cung cấp hoa tươi trong ngày, dịch vụ của chúng tôi cam kết đem đến cho bạn những bó hoa đẹp và tươi mới nhất, mang đến niềm vui và hạnh phúc cho mọi dịp đặc biệt trong cuộc sống.
+                        </p>
+
+                        <div class="product__details__cart__option">
+                           
+                            <button class="button-cart" data-product-id="18">Thêm vào giỏ</button>
+                        </div>
+                       
+                        <div class="product__details__last__option">
+                            <h5><span>Đối tác cửa hàng</span></h5>
+                            <img src="~/img/details-payment.jpg" alt="">
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="product__details__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-6"
+                                   role="tab">Mô tả</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-7" role="tab">
+                                  Mô tả chi tiết
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-8" role="tab">
+                                    Thông tin thêm
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-6" role="tabpanel">
+                                <div class="product__details__tab__content">
+                                    <div class="product__details__tab__content__item">
+                                        <h5>Thông tin sản phẩm</h5>
+                                        @Html.Raw(ViewBag.Product.Description)
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-7" role="tabpanel">
+                                <div class="product__details__tab__content">
+                                    <div class="product__details__tab__content__item">
+                                        <h5>Thông tin chi tiết</h5>
+                                        @Html.Raw(ViewBag.Product.Description2)
+
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-8" role="tabpanel">
+                                <div class="product__details__tab__content">
+                                    <div class="product__details__tab__content__item">
+                                        <h5>Thông tin thêm</h5>
+                                        @Html.Raw(ViewBag.Product.Description3)
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related Section Begin -->
+<section class="related spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="related-title">Related Product</h3>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in ViewBag.RelatedProducts)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="@item.Image">
+                            <ul class="product__hover">
+                                <li>
+                                    <a href="#">
+                                        <img src="/img/icon/heart.png" alt="">
+                                        <span>Yêu thích</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="add-to-cart" data-product-id="@item.ProductID">
+                                        <img src="/img/icon/cart.png">
+                                        <span>Thêm</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Shop/Detail/@item.ProductID">
+                                        <img src="/img/icon/detail.png" alt="">
+                                        <span>Chi tiết</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product__item__text">
+                            <a href="/Shop/Detail/@item.ProductID">
+                                <h5 style="text-align: center;">@item.ProductName</h5>
+                                <p style="font-size: 16px; margin-bottom: 0; text-align: center;">Giá: <span style="color: red;">@FormatHelper.FormatPriceVND((double)@item.Price) đ</span></p>
+                            </a>
+                        </div>
+                        <div class="button-center">
+                            <button class="button-cart" data-product-id="@item.ProductID">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+<!-- Related Section End -->
