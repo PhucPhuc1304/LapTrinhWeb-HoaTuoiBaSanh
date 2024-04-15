@@ -18,9 +18,10 @@ namespace CF_HOATUOIBASANH.Controllers
         private readonly IOrderRepository _orderRepository;
         private readonly IDetailOrderRepository _detailOrderRepository;
         private readonly ICustomerRepository _customerRepository;
+        private readonly EmailService _emailService;
 
 
-        public PaymentController(IConfiguration configuration, IHttpClientFactory httpClientFactory, IVNPayRepository vnPayRepository, IOrderRepository orderRepository, IDetailOrderRepository detailOrderRepository, ICustomerRepository customerRepository)
+        public PaymentController(IConfiguration configuration, IHttpClientFactory httpClientFactory, IVNPayRepository vnPayRepository, IOrderRepository orderRepository, IDetailOrderRepository detailOrderRepository, ICustomerRepository customerRepository, EmailService emailService)
         {
             _configuration = configuration;
             _httpClientFactory = httpClientFactory;
@@ -28,6 +29,7 @@ namespace CF_HOATUOIBASANH.Controllers
             _orderRepository = orderRepository;
             _detailOrderRepository = detailOrderRepository;
             _customerRepository = customerRepository;
+            _emailService = emailService;
         }
 
 
@@ -69,7 +71,8 @@ namespace CF_HOATUOIBASANH.Controllers
                     DeliveryMethod = deliveryMethod,
                     Note = note,
                     ShipAddress = result,
-                    ShipCost = shippingPrice
+                    ShipCost = shippingPrice,
+                    Email = email
                 };
 
 
@@ -108,7 +111,7 @@ namespace CF_HOATUOIBASANH.Controllers
                 };
 
                 Order createdOrder = _orderRepository.CreateOrder(order);
-
+                List<DetailOrder> orderDetail = new List<DetailOrder>();
                 foreach (var cartItem in cart)
                 {
                     DetailOrder detailOrder = new DetailOrder
@@ -116,13 +119,16 @@ namespace CF_HOATUOIBASANH.Controllers
                         OrderID = createdOrder.OrderID, 
                         ProductID = cartItem.Product.ProductID,
                         Quantity = cartItem.Quantity
+           
                     };
-
+                    orderDetail.Add(detailOrder);
                     _detailOrderRepository.CreateDetailOrder(detailOrder);
                 }
 
                 HttpContext.Session.Remove("cart");
                 HttpContext.Session.SetInt32("count", 0);
+                //_emailService.SendEmailAsync(email, createdOrder, orderDetail,"KH");
+                //_emailService.SendEmailAsync("", createdOrder, orderDetail, "QL");
 
                 url = "/Payment/CODSuccess";
             }
@@ -146,7 +152,8 @@ namespace CF_HOATUOIBASANH.Controllers
             string shipAddress = parts[1];
             string note = parts[3];
             decimal shipCost = decimal.Parse(parts[4]);
-            string nameDescriptionAmount = parts[5]; 
+            string email = parts[5];
+            string nameDescriptionAmount = parts[6]; 
             string[] nameDescAmountParts = nameDescriptionAmount.Split(' ');
             string amount = nameDescAmountParts[^1];
             decimal totalDecimal = decimal.Parse(amount);
@@ -179,6 +186,7 @@ namespace CF_HOATUOIBASANH.Controllers
                 };
 
                 Order createdOrder = _orderRepository.CreateOrder(order);
+                List<DetailOrder> detailOrdersMail = new List<DetailOrder>();
                 foreach (var cartItem in cart)
                 {
                     DetailOrder detailOrder = new DetailOrder
@@ -187,11 +195,13 @@ namespace CF_HOATUOIBASANH.Controllers
                         ProductID = cartItem.Product.ProductID,
                         Quantity = cartItem.Quantity
                     };
+                    detailOrdersMail.Add(detailOrder);
 
                     _detailOrderRepository.CreateDetailOrder(detailOrder);
                 }
                 ViewBag.OrderID = order.OrderID;
-
+                //_emailService.SendEmailAsync(email, createdOrder, detailOrdersMail, "KH");
+                //_emailService.SendEmailAsync("", createdOrder, detailOrdersMail, "QL");
                 HttpContext.Session.Remove("cart");
                 HttpContext.Session.SetInt32("count", 0);
 

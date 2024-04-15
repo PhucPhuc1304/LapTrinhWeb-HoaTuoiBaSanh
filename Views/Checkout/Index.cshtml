@@ -36,13 +36,14 @@
                             <div class="col-lg-6">
                                 <div class="checkout__input">
                                     <p>Họ lót<span>*</span></p>
-                                    <input type="text" id="lastName" name="lastName" value="@ViewBag.Customer.LastName">
+                                    <input type="text" id="firstName" name="firstName" value="@ViewBag.Customer.FirstName">
+
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="checkout__input">
                                     <p>Tên<span>*</span></p>
-                                    <input type="text" id="firstName" name="firstName" value="@ViewBag.Customer.FirstName">
+                                    <input type="text" id="lastName" name="lastName" value="@ViewBag.Customer.LastName">
                                 </div>
                             </div>
                         </div>
@@ -143,18 +144,12 @@
                             </div>
                             <div class="checkout__input__checkbox">
                                 <label for="vnPay">
-                                    Thanh toán bằng QR VNPAY
+                                    Thanh toán bằng VNPAY
                                     <input type="checkbox" id="vnPay" name="paymentMethod">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="paypal">
-                                    Thanh toán bằng PAYPAL
-                                    <input type="checkbox" id="paypal" name="paymentMethod">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
+                          
                             <ul class="checkout__total__all">
 
                                 <li>Tổng tiền hàng <span id="total">@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ</span></li>
@@ -327,14 +322,11 @@
         var shipCostSpan = document.getElementById('shipCost');
         var subTotalSpan = document.getElementById('subTotal');
 
-        // Kiểm tra xem checkbox có được chọn hay không
         if (this.checked) {
-            // Nếu được chọn, hiển thị các thông tin thanh toán
             totalSpan.innerText = "@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ";
             shipCostSpan.innerText = "0 đ";
             subTotalSpan.innerText = "@FormatHelper.FormatPriceVND((double)ViewBag.TotalPrice) đ";
         } else {
-            // Nếu không được chọn, ẩn các thông tin thanh toán và đặt lại giá trị mặc định
             totalSpan.innerText = "";
             shipCostSpan.innerText = "0 đ";
             subTotalSpan.innerText = "";
@@ -354,7 +346,7 @@
                 var phoneValue = document.getElementById('phone').value;
 
                 if (resultValue.trim() === '' ||
-                    districtValue === 'default' || wardValue === 'default' || // Corrected 'defaul' to 'default'
+                    districtValue === 'default' || wardValue === 'default' || 
                     resultValue.includes('Chọn tỉnh thành') ||
                     resultValue.includes('Chọn quận huyện') ||
                     resultValue.includes('Chọn phường xã') ||

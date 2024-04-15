@@ -7,6 +7,9 @@ using CF_HOATUOIBASANH.Repositorys;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using iText.Html2pdf;
+using iText.Kernel.Pdf;
+using Aspose.Pdf;
 
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
@@ -19,12 +22,14 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
         private readonly IDetailOrderRepository _orderDetailRepository;
         private readonly ICustomerRepository _customerRepository;
         private readonly IProductRepository _productRepository;
-        public OrderController(IOrderRepository orderRepository, IDetailOrderRepository orderDetailRepository, ICustomerRepository customerRepository, IProductRepository productRepository)
+        private readonly PdfService _pdfService;
+        public OrderController(IOrderRepository orderRepository, IDetailOrderRepository orderDetailRepository, ICustomerRepository customerRepository, IProductRepository productRepository, PdfService pdfService)
         {
             _orderRepository = orderRepository;
             _orderDetailRepository = orderDetailRepository;
             _customerRepository = customerRepository;
             _productRepository = productRepository;
+            _pdfService = pdfService;
         }
         public IActionResult Index()
         {
@@ -213,6 +218,30 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 
             return Json("Order edited successfully");
         }
+        public async Task<IActionResult> ExportPDF(int id)
+        {
+            var order = _orderRepository.GetOrderById(id);
+            var orderDetails = _orderDetailRepository.GetDetailOrderByIds(id).ToList();
+
+            // Gọi phương thức GenerateInvoicePdf từ PdfService để tạo tài liệu PDF
+            Document pdfDocument = await _pdfService.GenerateInvoicePdf(order, orderDetails);
+
+            // Tạo một MemoryStream để lưu trữ dữ liệu PDF
+            using (MemoryStream stream = new MemoryStream())
+            {
+                // Lưu tài liệu PDF vào MemoryStream
+                pdfDocument.Save(stream);
+
+                // Chuyển MemoryStream thành một mảng byte
+                byte[] pdfBytes = stream.ToArray();
+
+                // Trả về tài liệu PDF dưới dạng file
+                return File(pdfBytes, "application/pdf", "invoice.pdf");
+            }
+        }
+
+
+
 
         public IActionResult Delete(int id)
         {

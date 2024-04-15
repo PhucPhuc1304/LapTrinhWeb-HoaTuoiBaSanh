@@ -7,6 +7,7 @@ using CF_HOATUOIBASANH.Authencation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using System.Configuration;
+using PdfSharp.Charting;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add support for cookies authentication
@@ -23,6 +24,8 @@ builder.Services.AddScoped<CustomAuthorizeAttribute>();
 builder.Services.AddScoped<IVNPayRepository, EFVNPayRepository>();
 builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 builder.Services.AddScoped<IDetailOrderRepository, EFDetailOrderRepository>();
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<PdfService>();
 
 
 

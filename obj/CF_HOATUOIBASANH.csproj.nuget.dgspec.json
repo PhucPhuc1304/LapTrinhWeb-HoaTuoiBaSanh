@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspose.PDF": {
+              "target": "Package",
+              "version": "[24.4.0, )"
+            },
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.5.0, )"
@@ -85,6 +93,22 @@
             "PagedList.Mvc": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "iText": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.3, )"
             }
           },
           "imports": [

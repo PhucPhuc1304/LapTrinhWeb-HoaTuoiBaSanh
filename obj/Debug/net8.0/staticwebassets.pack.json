@@ -17917,6 +17917,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts - Copy\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts - Copy\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts - Copy\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts - Copy\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts - Copy\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts - Copy\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts - Copy\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts - Copy\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts - Copy\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts - Copy\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts - Copy\\fontawesome-webfont.woff2"
+    },
+    {
       "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\ElegantIcons.eot",
       "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
     },
@@ -17955,6 +17995,10 @@
     {
       "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\fonts\\times new roman.ttf",
+      "PackagePath": "staticwebassets\\fonts\\times new roman.ttf"
     },
     {
       "Id": "C:\\Users\\PC\\OneDrive - teky.edu.vn\\Desktop\\LapTrinhWeb-HoaTuoiBaSanh\\wwwroot\\img\\about\\about-us.jpg",

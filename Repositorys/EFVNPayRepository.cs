@@ -27,7 +27,7 @@ namespace CF_HOATUOIBASANH.Repositorys
             pay.AddRequestData("vnp_CurrCode", _configuration["Vnpay:CurrCode"]);
             pay.AddRequestData("vnp_IpAddr", pay.GetIpAddress(context));
             pay.AddRequestData("vnp_Locale", _configuration["Vnpay:Locale"]);
-            pay.AddRequestData("vnp_OrderInfo", $"{model.DeliveryMethod}|{model.ShipAddress}|{model.Name} |{model.Note}|{model.ShipCost}|{model.OrderDescription} {model.Amount}");
+            pay.AddRequestData("vnp_OrderInfo", $"{model.DeliveryMethod}|{model.ShipAddress}|{model.Name} |{model.Note}|{model.ShipCost}|{model.Email}|{model.OrderDescription} {model.Amount}");
             pay.AddRequestData("vnp_OrderType", model.OrderType);
             pay.AddRequestData("vnp_ReturnUrl", urlCallBack);
             pay.AddRequestData("vnp_TxnRef", tick);

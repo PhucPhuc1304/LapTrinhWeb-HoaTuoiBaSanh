@@ -11,4 +11,5 @@ public class PaymentInformationModel
     public string ShipAddress { get; set; }
 
     public double ShipCost { get; set; }
+    public string Email {  get; set; }
 }
