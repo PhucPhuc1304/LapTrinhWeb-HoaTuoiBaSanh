@@ -30,7 +30,6 @@ namespace CF_HOATUOIBASANH.Authencation
 
             var account = JsonSerializer.Deserialize<Account>(serializedAccount);
 
-            // Ensure account is not null
             if (account == null)
             {
                 HandleUnauthorizedRequest(context);

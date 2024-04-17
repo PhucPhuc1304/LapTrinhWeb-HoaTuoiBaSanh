@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[CustomAuthorize(Roles = "Admin")]
+    
 
     public class HomeController : Controller
     {
@@ -22,8 +22,8 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
             _customerRepository = customerRepository;
             _productRepository = productRepository;
         }
-        //[CustomAuthorize(Roles = "Admin")]
-        public async Task<IActionResult> Index()
+		[CustomAuthorize(Roles = "Admin,Manager")]
+		public async Task<IActionResult> Index()
         {
             var customers = await _customerRepository.GetAllCustomersAsync();
             var customerCount = customers.Count();
@@ -100,12 +100,65 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 				}
 			}
 
-			ViewBag.TopRevenueProductsWithImages = topRevenueProductsWithImages;
+            var today = DateTime.Today;
+            var startOfWeek = today.AddDays(-(int)today.DayOfWeek + (int)DayOfWeek.Monday);
+
+            var ordersThisWeek = orders.Where(order => order.CreateDate.Date >= startOfWeek.Date && order.CreateDate.Date <= today.Date);
+
+            var ordersByDayOfWeek = ordersThisWeek
+                .GroupBy(order => order.CreateDate.DayOfWeek)
+                .Select(group => new
+                {
+                    DayOfWeek = group.Key,
+                    TotalOrders = group.Count()
+                })
+                .OrderBy(group => group.DayOfWeek)
+                .ToList();
+
+            var orderedDaysOfWeek = new List<DayOfWeek> { DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday };
+            var ordersByDayOfWeekFormatted = orderedDaysOfWeek
+                .Select(dayOfWeek => new
+                {
+                    Day = GetDayOfWeekName(dayOfWeek),
+                    Sell = ordersByDayOfWeek.FirstOrDefault(group => group.DayOfWeek == dayOfWeek)?.TotalOrders ?? 0
+                })
+                .ToList();
+
+            var formattedResult = ordersByDayOfWeekFormatted.Select(item => new
+            {
+                day = item.Day,
+                sell = item.Sell
+            }).ToList();
+
+            ViewBag.OrdersByDayOfWeek = formattedResult;
+            ViewBag.TopRevenueProductsWithImages = topRevenueProductsWithImages;
 			ViewBag.TopRevenueProductsWithImages = topRevenueProductsWithImages;
 
             return View();
         }
-
+        private string GetDayOfWeekName(DayOfWeek dayOfWeek)
+        {
+            switch (dayOfWeek)
+            {
+                case DayOfWeek.Sunday:
+                    return "Chủ nhật";
+                case DayOfWeek.Monday:
+                    return "Thứ 2";
+                case DayOfWeek.Tuesday:
+                    return "Thứ 3";
+                case DayOfWeek.Wednesday:
+                    return "Thứ 4";
+                case DayOfWeek.Thursday:
+                    return "Thứ 5";
+                case DayOfWeek.Friday:
+                    return "Thứ 6";
+                case DayOfWeek.Saturday:
+                    return "Thứ 7";
+                default:
+                    return "";
+            }
+        }
 
     }
+
 }

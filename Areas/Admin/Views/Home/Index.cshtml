@@ -6,7 +6,7 @@
 			<div class="card card-transparent card-block card-stretch card-height border-none">
 				<div class="card-body p-0 mt-lg-2 mt-0">
 					<h3 class="mb-3">Xin chào @username</h3>
-					<p class="mb-0 mr-4">Bảng điều khiển của bạn cung cấp các chế độ xem về hiệu suất chính hoặc quy trình kinh doanh quan trọng.</p>
+					<p class="mb-0 mr-4">"Chào mừng bạn đến với trang quản trị! Đây là nơi bạn có thể kiểm soát và quản lý mọi hoạt động trên trang web của Hoa Tươi Ba Sanh</p>
 				</div>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
             <div class="card card-transparent card-block card-stretch mb-4">
                 <div class="card-header d-flex align-items-center justify-content-between p-0">
                     <div class="header-title">
-                        <h4 class="card-title mb-0">Best Item All Time</h4>
+                        <h4 class="card-title mb-0">Sản phẩm doanh thu cao</h4>
                     </div>
                     <div class="card-header-toolbar d-flex align-items-center">
                         <div><a href="#" class="btn btn-primary view-btn font-size-14">View All</a></div>
@@ -128,6 +128,21 @@
 				</div>
 			}
 		</div>
+		<div class="col-lg-12">
+			<div class="card card-block card-stretch card-height">
+				<div class="card-header d-flex align-items-center justify-content-between">
+					<div class="header-title">
+						<h4 class="card-title">Biểu đồ đơn hàng trong tuần</h4>
+					</div>
+					<div class="card-header-toolbar d-flex align-items-center">
+						
+					</div>
+				</div>
+				<div class="card-body">
+					<div id="layout1-chart-2" style="min-height: 360px;"></div>
+				</div>
+			</div>
+		</div>
     </div>
 
 </div>
@@ -135,3 +150,80 @@
 
 	</div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+@if (ViewBag.OrdersByDayOfWeek != null)
+{
+	<script>
+		if (jQuery('#layout1-chart-2').length) {
+			am4core.ready(function () {
+
+				// Themes begin
+				am4core.useTheme(am4themes_animated);
+				// Themes end
+
+				// Create chart instance
+				var chart = am4core.create("layout1-chart-2", am4charts.XYChart);
+				chart.colors.list = [
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA"),
+					am4core.color("#32BDEA")
+				];
+				chart.scrollbarX = new am4core.Scrollbar();
+
+				// Add data from ViewBag
+				chart.data = @Html.Raw(Json.Serialize(ViewBag.OrdersByDayOfWeek));
+
+				// Create axes
+				var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+				categoryAxis.dataFields.category = "day";
+				categoryAxis.renderer.grid.template.location = 0;
+				categoryAxis.renderer.minGridDistance = 60;
+				categoryAxis.tooltip.disabled = true;
+
+				var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+				valueAxis.renderer.minWidth = 50;
+				valueAxis.min = 0;
+				valueAxis.cursorTooltipEnabled = false;
+
+				// Create series
+				var series = chart.series.push(new am4charts.ColumnSeries());
+				series.sequencedInterpolation = true;
+				series.dataFields.valueY = "sell";
+				series.dataFields.categoryX = "day";
+				series.tooltipText = "[{categoryX}: bold]{valueY}[/]";
+				series.columns.template.strokeWidth = 0;
+
+				series.tooltip.pointerOrientation = "vertical";
+
+				series.columns.template.column.cornerRadiusTopLeft = 10;
+				series.columns.template.column.cornerRadiusTopRight = 10;
+				series.columns.template.column.fillOpacity = 0.8;
+
+				// on hover, make corner radiuses bigger
+				var hoverState = series.columns.template.column.states.create("hover");
+				hoverState.properties.cornerRadiusTopLeft = 0;
+				hoverState.properties.cornerRadiusTopRight = 0;
+				hoverState.properties.fillOpacity = 1;
+
+				series.columns.template.adapter.add("fill", function (fill, target) {
+					return chart.colors.getIndex(target.dataItem.index);
+				})
+
+				// Cursor
+				chart.cursor = new am4charts.XYCursor();
+				chart.cursor.behavior = "panX";
+
+			}); // end am4core.ready()
+		}
+	</script>
+}

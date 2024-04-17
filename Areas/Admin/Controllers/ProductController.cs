@@ -20,19 +20,23 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 			_productRepository = productRepository;
 			_categoryRepository = categoryRepository;
 		}
+		[CustomAuthorize(Roles = "Admin,Manager")]
 		public IActionResult Index()
 		{
 			var products = _productRepository.GetAll();
 			return View(products);
 		}
-        public IActionResult Add()
+		[CustomAuthorize(Roles = "Admin")]
+
+		public IActionResult Add()
         {
             var categories = _categoryRepository.GetAll();
             var categoryList = new SelectList(categories, "CategoryID", "CategoryName");
             ViewBag.Categories = categoryList;
             return View();
         }
-        public IActionResult Edit(int id)
+		[CustomAuthorize(Roles = "Admin")]
+		public IActionResult Edit(int id)
         {
             var categories = _categoryRepository.GetAll();
             var categoryList = new SelectList(categories, "CategoryID", "CategoryName");
@@ -41,7 +45,8 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
             ViewBag.Products = products;
             return View();
         }
-        [HttpPost]
+		[CustomAuthorize(Roles = "Admin")]
+		[HttpPost]
         public async Task<IActionResult> AddProduct(int categoryId, string productName, string productUnit, string productStatus, decimal price, decimal? price1, decimal? price2, decimal? price3, IFormFile image, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, string description, string description2, string description3)
         {
             var product = new Product
@@ -85,12 +90,12 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
             return RedirectToAction("Index", "Product");
         }
 
-
-        [HttpPost]
+		[CustomAuthorize(Roles = "Admin")]
+		[HttpPost]
         public async Task<IActionResult> EditProduct(int categoryId, string productName,int productID, string productUnit, string productStatus, decimal price, decimal? price1, decimal? price2, decimal? price3, IFormFile image, IFormFile image1, IFormFile image2, IFormFile image3, IFormFile image4, string description, string description2, string description3)
         {
       
-           var existingProduct = _productRepository.GetById(productID); // Lấy thông tin sản phẩm hiện có từ cơ sở dữ liệu
+           var existingProduct = _productRepository.GetById(productID); 
             existingProduct.CategoryID = categoryId;
             existingProduct.ProductName = productName;
             existingProduct.ProductUnit = productUnit;
@@ -130,8 +135,8 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 
         }
 
-
-        public IActionResult Delete(int id)
+		[CustomAuthorize(Roles = "Admin")]
+		public IActionResult Delete(int id)
         {
             var productToDelete = _productRepository.GetById(id);
 

@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[CustomAuthorize(Roles = "Admin")]
 
     public class CategoryController : Controller
     {
@@ -15,27 +14,35 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
         {
             _categoryRepository = categoryRepository;
         }
-        public IActionResult Index()
+		[CustomAuthorize(Roles = "Admin,Manager")]
+		public IActionResult Index()
         {
             var category = _categoryRepository.GetAll();
             return View(category);
         }
-        public IActionResult Add()
+		[CustomAuthorize(Roles = "Admin")]
+
+		public IActionResult Add()
         {
             return View();
-        }
-        public IActionResult Edit(int id)
+		}
+		[CustomAuthorize(Roles = "Admin")]
+		public IActionResult Edit(int id)
         {
             var editCategory = _categoryRepository.GetById(id);
             return View(editCategory);
         }
-        public IActionResult Delete(int id)
+		[CustomAuthorize(Roles = "Admin")]
+
+		public IActionResult Delete(int id)
         {
             var removeCategory = _categoryRepository.GetById(id);
             _categoryRepository.Remove(removeCategory);
             return RedirectToAction("Index", "Category");
         }
-        [HttpPost]
+		[CustomAuthorize(Roles = "Admin")]
+
+		[HttpPost]
         public IActionResult EditCategory(int categoryId, string categoryName)
         {
             var existingCategory = _categoryRepository.GetById(categoryId);
@@ -45,15 +52,14 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
                 return NotFound(); 
             }
 
-            // Update the category name
             existingCategory.CategoryName = categoryName;
 
-            // Save changes to the database
             _categoryRepository.Update(existingCategory);
 
-            return RedirectToAction("Index", "Category"); // Redirect to the category list page
+            return RedirectToAction("Index", "Category"); 
         }
-        [HttpPost]
+		[CustomAuthorize(Roles = "Admin")]
+		[HttpPost]
         public IActionResult AddCategory(string categoryName)
         {
 

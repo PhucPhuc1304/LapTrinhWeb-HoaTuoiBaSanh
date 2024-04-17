@@ -17,7 +17,6 @@ namespace CF_HOATUOIBASANH.Controllers
         public IActionResult Index()
         {
             var productsByStatus = _productRepository.GetByStatus();
-            // You can pass productsByStatus to the view or further process it as needed
             return View(productsByStatus);
         }
         public IActionResult About()

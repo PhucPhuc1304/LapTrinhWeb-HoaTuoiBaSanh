@@ -1,4 +1,5 @@
-﻿using CF_HOATUOIBASANH.Interfaces;
+﻿using CF_HOATUOIBASANH.Authencation;
+using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Models;
 using CF_HOATUOIBASANH.Repositorys;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,9 @@ using System.Security.Policy;
 
 namespace CF_HOATUOIBASANH.Controllers
 {
-    public class PaymentController : Controller
+	[CustomAuthorize(Roles = "Admin,User,Manager")]
+
+	public class PaymentController : Controller
     {
 
         private readonly IConfiguration _configuration;
@@ -127,8 +130,8 @@ namespace CF_HOATUOIBASANH.Controllers
 
                 HttpContext.Session.Remove("cart");
                 HttpContext.Session.SetInt32("count", 0);
-                //_emailService.SendEmailAsync(email, createdOrder, orderDetail,"KH");
-                //_emailService.SendEmailAsync("", createdOrder, orderDetail, "QL");
+                _emailService.SendEmailAsync(email, createdOrder, orderDetail,"KH");
+                _emailService.SendEmailAsync("", createdOrder, orderDetail, "QL");
 
                 url = "/Payment/CODSuccess";
             }
@@ -200,8 +203,8 @@ namespace CF_HOATUOIBASANH.Controllers
                     _detailOrderRepository.CreateDetailOrder(detailOrder);
                 }
                 ViewBag.OrderID = order.OrderID;
-                //_emailService.SendEmailAsync(email, createdOrder, detailOrdersMail, "KH");
-                //_emailService.SendEmailAsync("", createdOrder, detailOrdersMail, "QL");
+                _emailService.SendEmailAsync(email, createdOrder, detailOrdersMail, "KH");
+                _emailService.SendEmailAsync("", createdOrder, detailOrdersMail, "QL");
                 HttpContext.Session.Remove("cart");
                 HttpContext.Session.SetInt32("count", 0);
 

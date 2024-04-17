@@ -14,7 +14,6 @@ using Aspose.Pdf;
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[CustomAuthorize(Roles = "Admin")]
 
     public class OrderController : Controller
     {
@@ -31,30 +30,29 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
             _productRepository = productRepository;
             _pdfService = pdfService;
         }
-        public IActionResult Index()
+		[CustomAuthorize(Roles = "Admin,Manager")]
+
+		public IActionResult Index()
         {
             var orders = _orderRepository.GetAllOrders();
             var orderDetails = _orderDetailRepository.GetAllDetailOrders();
-
-            // Grouping order details by OrderID
             var groupedOrderDetails = orderDetails.GroupBy(od => od.OrderID)
                                                   .ToDictionary(g => g.Key, g => g.ToList());
-
             ViewBag.Orders = orders;
             ViewBag.OrderDetails = groupedOrderDetails;
-
             return View();
         }
 
-
-        public async Task<IActionResult> Add()
+		[CustomAuthorize(Roles = "Admin")]
+		public async Task<IActionResult> Add()
         {
             ViewBag.Customers = await _customerRepository.GetAllCustomersAsync();
             ViewBag.Products = _productRepository.GetAll();
 
             return View();
         }
-        [HttpPost]
+		[CustomAuthorize(Roles = "Admin")]
+		[HttpPost]
         public IActionResult AddOrder(string customerID, string deliveryMethod, string payMethod, string payStatus, string shipStatus, string shipAddress, string shipCost, string notes, List<OrderDetailViewModel> orderDetails)
         {
             try
@@ -131,8 +129,8 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
             public string ProductID { get; set; }
             public string Quantity { get; set; }
         }
-
-        public async Task<IActionResult> Edit(int id)
+		[CustomAuthorize(Roles = "Admin")]
+		public async Task<IActionResult> Edit(int id)
         {
             var orders = _orderRepository.GetOrderById(id);
             var orderDetails = _orderDetailRepository.GetDetailOrderByIds(id);
@@ -218,44 +216,36 @@ namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 
             return Json("Order edited successfully");
         }
-        public async Task<IActionResult> ExportPDF(int id)
+		[CustomAuthorize(Roles = "Admin,Manager")]
+		public async Task<IActionResult> ExportPDF(int id)
+		{
+			var order = _orderRepository.GetOrderById(id);
+			var orderDetails = _orderDetailRepository.GetDetailOrderByIds(id).ToList();
+			Document pdfDocument = await _pdfService.GenerateInvoicePdf(order, orderDetails);
+			using (MemoryStream stream = new MemoryStream())
+			{
+				pdfDocument.Save(stream);
+				byte[] pdfBytes = stream.ToArray();
+				string fileName = $"HTBS-HoaDon-{id}.pdf";
+				return File(pdfBytes, "application/pdf", fileName);
+			}
+		}
+
+
+
+
+		[CustomAuthorize(Roles = "Admin")]
+
+		public IActionResult Delete(int id)
         {
-            var order = _orderRepository.GetOrderById(id);
-            var orderDetails = _orderDetailRepository.GetDetailOrderByIds(id).ToList();
-
-            // Gọi phương thức GenerateInvoicePdf từ PdfService để tạo tài liệu PDF
-            Document pdfDocument = await _pdfService.GenerateInvoicePdf(order, orderDetails);
-
-            // Tạo một MemoryStream để lưu trữ dữ liệu PDF
-            using (MemoryStream stream = new MemoryStream())
-            {
-                // Lưu tài liệu PDF vào MemoryStream
-                pdfDocument.Save(stream);
-
-                // Chuyển MemoryStream thành một mảng byte
-                byte[] pdfBytes = stream.ToArray();
-
-                // Trả về tài liệu PDF dưới dạng file
-                return File(pdfBytes, "application/pdf", "invoice.pdf");
-            }
-        }
-
-
-
-
-        public IActionResult Delete(int id)
-        {
-            // Lấy thông tin đơn hàng từ repository
             var order = _orderRepository.GetOrderById(id);
             var orderDetails = _orderDetailRepository.GetDetailOrderByIds(id);
 
-            // Xóa tất cả chi tiết đơn hàng
             foreach (var detail in orderDetails)
             {
                 _orderDetailRepository.DeleteDetailOrder(detail);
             }
 
-            // Xóa đơn hàng chính
             _orderRepository.DeleteOrder(id);
 
             return RedirectToAction("Index", "Order");

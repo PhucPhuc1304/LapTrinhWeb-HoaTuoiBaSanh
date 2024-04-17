@@ -5,7 +5,7 @@
     string deliveryMethod = parts[0];
     string shipAddress = parts[1];
     string note = parts.Length > 3 ? parts[3] : null;
-    string nameDescriptionAmount = parts[4];
+    string nameDescriptionAmount = parts[6];
     string[] nameDescAmountParts = nameDescriptionAmount.Split(' ');
     string amount = nameDescAmountParts[^1];
     decimal totalDecimal = decimal.Parse(amount);

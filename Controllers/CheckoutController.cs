@@ -45,7 +45,6 @@ namespace CF_HOATUOIBASANH.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            //Properly await the asynchronous operation to gt the customer
             Customer customer = await _customerRepository.GetCustomerByAccountIdAsync(account.AccountID);
 
             if (customer == null)

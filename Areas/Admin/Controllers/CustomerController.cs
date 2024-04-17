@@ -3,11 +3,11 @@ using CF_HOATUOIBASANH.Interfaces;
 using CF_HOATUOIBASANH.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-
+using CF_HOATUOIBASANH.Authencation;
 namespace CF_HOATUOIBASANH.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[CustomAuthorize(Roles = "Admin")]
+    [CustomAuthorize(Roles = "Admin")]
     public class CustomerController : Controller
     {
         private readonly IAccountRepository _accountRepository;

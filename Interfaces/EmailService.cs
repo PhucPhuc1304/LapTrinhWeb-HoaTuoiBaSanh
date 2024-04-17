@@ -29,23 +29,19 @@ namespace CF_HOATUOIBASANH.Interfaces
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("Hoa Tươi Ba Sanh", "hutechdonationfundation@gmail.com"));
 
-            if (recipientType == "KH") // Nếu là khách hàng
+            if (recipientType == "KH") 
             {
                 message.To.Add(new MailboxAddress("", to));
                 message.Subject = $"Xác nhận đơn hàng {order.OrderID} - Cửa hàng hoa tươi ba sanh";
-
-                // Build the email body for the customer
                 var bodyBuilder = new BodyBuilder();
                 bodyBuilder.HtmlBody = BuildHtmlBody(order, orderDetails);
 
                 message.Body = bodyBuilder.ToMessageBody();
             }
-            else if (recipientType == "QL") // Nếu là quản lý
+            else if (recipientType == "QL") 
             {
                 message.To.Add(new MailboxAddress("", "phucprodl.3@gmail.com"));
                 message.Subject = "Thông báo có đơn hàng cần thanh toán";
-
-                // Build the email body for the manager
                 var bodyBuilder = new BodyBuilder();
                 bodyBuilder.HtmlBody = BuildHtmlBody2(order, orderDetails);
 
@@ -104,7 +100,6 @@ namespace CF_HOATUOIBASANH.Interfaces
         {
             var sb = new StringBuilder();
             sb.Append("<p>Bạn có đơn hàng cần xác nhận !!!!.</p>");
-
             sb.Append($"<h1>Đơn hàng {order.OrderID}</h1>");
             sb.Append($"<p><strong>Mã đơn hàng:</strong> {order.OrderID}</p>");
             sb.Append($"<p><strong>Tên khách hàng:</strong> {order.Customer.FirstName} {order.Customer.LastName}</p>");
@@ -128,7 +123,6 @@ namespace CF_HOATUOIBASANH.Interfaces
                 sb.Append($"<tr><td>{detail.ProductID}</td><td>{product.ProductName}</td><td>{detail.Quantity}</td><td>{product.Price}</td><td>{totalPrice.ToString()}</td></tr>");
             }
             sb.Append("</table>");
-
             sb.Append($"<p><strong>Tổng tiền hàng:</strong> {totalAmount.ToString("N0")}</p>");
             sb.Append($"<p><strong>Tổng tiền ship:</strong> {shipCost.ToString("N0")}</p>");
             sb.Append($"<p><strong>Thành tiền:</strong> {totalAmount.ToString("N0")}</p>");

@@ -90,7 +90,7 @@ namespace CF_HOATUOIBASANH.Controllers
                         products = _productRepository.GetProductsByPriceRange(200000, 250000);
                         break;
                     case "250":
-                        products = _productRepository.GetProductsByPriceRange(250000, decimal.MaxValue); 
+                        products = _productRepository.GetProductsByPriceRange(250000, 999999999999999); 
                         break;
                     default:
                         break;
@@ -113,7 +113,7 @@ namespace CF_HOATUOIBASANH.Controllers
             }
             ViewBag.CategoryList = _categoryRepository.GetAll().Select(c => new { MaLoai = c.CategoryID, TenLoai = c.CategoryName }).ToList();
 
-            int pageSize = 6; 
+            int pageSize = 9; 
             int pageNumber = (page ?? 1);
             var pagedProducts = products.ToPagedList(pageNumber, pageSize);
             return View(pagedProducts);
@@ -218,24 +218,17 @@ namespace CF_HOATUOIBASANH.Controllers
         [HttpPost]
         public IActionResult DeleteCartItem(int productId)
         {
-            // Lấy danh sách sản phẩm từ Session
             string cartJson = HttpContext.Session.GetString("cart");
             List<CartModel> cart = string.IsNullOrEmpty(cartJson)
                 ? new List<CartModel>()
                 : JsonConvert.DeserializeObject<List<CartModel>>(cartJson);
 
-            // Tìm và xóa sản phẩm với productId khớp
             var itemToRemove = cart.FirstOrDefault(c => c.Product.ProductID == productId);
             if (itemToRemove != null)
             {
                 cart.Remove(itemToRemove);
-
-                // Cập nhật lại danh sách sản phẩm trong Session
                 HttpContext.Session.SetString("cart", JsonConvert.SerializeObject(cart));
                 HttpContext.Session.SetInt32("count", HttpContext.Session.GetInt32("count").GetValueOrDefault() - 1);
-
-
-                // Trả về kết quả thành công
                 return Ok();
             }
             else
